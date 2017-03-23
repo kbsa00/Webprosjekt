@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>Westerdals Google Map (Campus) </h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var fjerdingen = {lat: 59.916107, lng: 10.759980}
+        var vulkan = {lat: 59.923353, lng: 10.75236}
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: fjerdingen
+        });
+        var marker = new google.maps.Marker({
+          position: fjerdingen,
+          map: map
+        });
+          var image = { 
+        url:'https://img.clipartfest.com/dbd709cfe0da9055e3526b6ccc5d209d_-cross-of-fork-and-knife-crossed-knife-and-fork-clipart_512-512.png',
+        scaledSize : new google.maps.Size(22, 32)
+          };
+          var marker = new google.maps.Marker({
+          position: vulkan,
+          map: map,
+              content: 'Hamburger', 
+            icon: image
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbtTk2lCwIZUqNNKI-dlJ10QPFgINuTiU&callback=initMap">
+    </script>
+  </body>
+</html>
