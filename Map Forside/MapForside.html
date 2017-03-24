@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      #map {
-        height: 400px;
-        width: 100%;
-       }
-    </style>
-  </head>
-  <body>
-    <h3>Westerdals Google Map (Campus) </h3>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var fjerdingen = {lat: 59.916107, lng: 10.759980}
-        var brenneriet = {lat: 59.920298,lng: 10.752712}
-        var vulkan = {lat: 59.923353, lng: 10.75236}
-        
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 14,
-          center: new google.maps.LatLng(59.920393, 10.754123),
-         styles:
+<html> 
+<head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <title>Google Maps Multiple Markers</title> 
+  <script src="http://maps.google.com/maps/api/js?sensor=false" 
+          type="text/javascript"></script>
+</head> 
+<body>
+  <div id="map" style="width: 100%; height: 400px;"></div>
+
+  <script type="text/javascript">
+    var locations = [
+      ['Campus Fjeridnge ', 59.916107,10.759980, 4, 
+       {url:'Mot.jpg',
+        scaledSize : new google.maps.Size(70, 70)} ],
+      ['Campus Vulkan', 59.923353, 10.75236, 5,  {url:'Vulkan.png',
+        scaledSize : new google.maps.Size(70, 70)}],
+      ['Campus Brenneriet', 59.920298, 10.752712, 3,  {url:'imgres.jpg',
+        scaledSize : new google.maps.Size(70, 70)}]        
+      
+    ];
+
+    var map = new google.maps.Map(
+        document.getElementById('map'), 
+        {
+      zoom: 14,
+      center: new google.maps.LatLng(59.920393, 10.754123),
+      mapTypeId: google.maps.MapTypeId.ROADMAP, 
+    styles:
         [
     {
         "featureType": "administrative",
@@ -146,29 +153,29 @@
         ]
     }
 ]    
-        });
-        var Fjerdingenmarker = new google.maps.Marker({
-          position: fjerdingen,
-          map: map
-        });
-          var image = { 
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+ var image = { 
         url:'Vulkan.png',
         scaledSize : new google.maps.Size(70, 70)
           };
-          var Brennerietmarker = new google.maps.Marker({
-          position: brenneriet,
-          map: map, 
-        });
-          var Vulkanmarker = new google.maps.Marker({
-          position: vulkan,
-          map: map,   
-          icon: image, 
-          content: 'Vulkan'      
-    });  
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbtTk2lCwIZUqNNKI-dlJ10QPFgINuTiU&callback=initMap">
-    </script>
-  </body>   
-</html>
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map, 
+        icon: locations[i][4]     
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+</body>
+</html> 
