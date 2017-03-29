@@ -12,21 +12,45 @@
   <script type="text/javascript">
 //Her skriver du inn navn,longitude og latitude, bilder i URL.  
       var locations = [
-      ['Blå', 59.9201456,10.7527996, 1, 
+      ['Blå', 59.9201164,10.7530501, 2, 
        {url:'Bilder/Cocktail-icon.png',
         scaledSize : new google.maps.Size(40, 40)} ],
-      ['britt powers', 59.9204056,10.7527755, 2, 
+      ['britt powers', 59.9204042,10.7526689, 3, 
        {url:'Bilder/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
-      ['Kuma', 59.920348,10.752856, 3,  
+      ['Kuma', 59.9203146,10.7529034, 4,  
        {url:'Bilder/cart.png',
         scaledSize : new google.maps.Size(40, 40)}],
-      ['X-Ray Ungdomskulturhus', 59.9200676,10.7521184, 4,  
+      ['X-Ray Ungdomskulturhus', 59.9200676,10.7521184, 5,  
        {url:'Bilder/Cocktail-icon.png',
         scaledSize : new google.maps.Size(40, 40)}],
-      ['Campus Brenneriet', 59.9201867,10.7526736, 5,  
+      ['Delhi Tandoori', 59.9196866,10.7513497, 6,  
+       {url:'Bilder/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Taxi Take Away', 59.9194769,10.7512829, 7,  
+       {url:'Bilder/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Today Grill & Pizza', 59.9193306,10.7509687, 8,  
+       {url:'Bilder/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Gourmet Pizza Grill', 59.9193913,10.7506003, 9,  
+       {url:'Bilder/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Orlandos Pub', 59.9194409,10.7502574, 10,  
+       {url:'Bilder/Cocktail-icon.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Filippa Sushi', 59.9195072,10.7496785, 11,  
+       {url:'Bilder/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Grusomhetens Teater', 59.9191488,10.7520666, 12,  
+       {url:'Bilder/kino.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Pjoltergeist', 59.9196556,10.74866, 13,  
+       {url:'Bilder/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Campus Brenneriet', 59.920054,10.7525318, 1,  
        {url:'Bilder/Brenneriveien hexagon.png',
-        scaledSize : new google.maps.Size(100, 100)}]  
+        scaledSize : new google.maps.Size(40, 40)}]  
           
       
     ];
@@ -34,8 +58,8 @@
     var map = new google.maps.Map(
         document.getElementById('map'), 
         {
-      zoom: 19,
-      center: new google.maps.LatLng(59.9202694,10.7526749),
+      zoom: 17,
+      center: new google.maps.LatLng(59.9198339,10.7519318),
       mapTypeId: google.maps.MapTypeId.ROADMAP, 
  
 //ALT INNEN FOR STYLES ER BARE KART THEME. DO NOT TOUCH! :) 
