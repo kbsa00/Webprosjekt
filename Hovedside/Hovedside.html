@@ -18,14 +18,14 @@
     #menylinje1{
         width: 615px; 
         height: 3px; 
-        position: fixed;
+        position: absolute;
         background-color: black; 
         top: 130px;
         
     }
     
     #menylinje2{
-        position: fixed;
+        position: absolute;
         height: 3px;
         top: 130px;
         width: 100%;
@@ -34,14 +34,14 @@
     
     }
     #hexagon{
-        position: fixed; 
+        position: absolute; 
         width: 20px; 
         top: 100px;
         right: 180px;
     }
     
     #hexagon1{
-        position: fixed;
+        position: absolute;
         width: 20px;
         top: 100px;
         right: 125px;
@@ -49,54 +49,71 @@
     }
     
     #hexagon2{
-        position: fixed;
+        position: absolute;
         width: 20px;
         top: 100px;
         right: 70px;
     }
     
     #logo{
-        position: fixed; 
+        position: absolute; 
         top: 45px;
         left: 525px;
     }
     #fb{
-        position: fixed; 
+        position: absolute; 
         top: 90px; 
         width: 30px;
         left: 200px
     }
     #tw{
-        position: fixed;
+        position: absolute;
         top: 90px; 
         width: 30px;
         left: 150px;
     }
     #ig{
-        position: fixed; 
+        position: absolute; 
         top: 84px; 
         width: 40px;
         left: 90px;
     }
     #sc{
-        position: fixed; 
+        position: absolute; 
         top: 86px; 
         width: 37px;
         left: 40px
     }
-    .fjerd{
+    #fjerd{
         width: 200px; 
         height: 200px;
-        background-image: url(Fjerdingen%20hexagon%20copy%202.png); 
         top: 400px;
         position: absolute;
-        background-repeat: no-repeat; 
-        background-position: center;
-        background-size: 200px 200px; 
-        display: inline-block; 
+        opacity: 1;
+        left: 200px;
     }
    
+    #fjerd:hover {
+        opacity: 0.6;
+        
+    }
     
+    #vulk{
+        position: absolute; 
+        height: 200px; 
+        width: 200px;
+        top: 400px; 
+        left: 590px; 
+        
+    }
+    
+    #bren{
+        position: absolute; 
+        height: 200px; 
+        width: 200px; 
+        top: 400px;
+        left: 990px;
+    }
 </style>
 </head>
 <body>
@@ -112,7 +129,9 @@
 <img id="tw" src="twitter_icon-aa3c1f5542de27e4810b43c5af1c756f.png">
 <img id="ig" src="circle-social-instagram-512.png"> 
 <img id="sc" src="SnapChat_Rounded_icon-icons.com_61574.png">
-<img class="fjerd">
+<img id="fjerd" src="Fjerdingen%20hexagon%20copy%202.png">
+<img id="vulk" src="Vulkan%20copy%202.png">
+<img id="bren" src="Brenneriveien%20hexagon%20copy%202.png">   
 </div>
 </div>
 
