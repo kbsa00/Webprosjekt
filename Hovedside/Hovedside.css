@@ -1,0 +1,303 @@
+ #container{
+        width: 100%; 
+        height: 3000px; 
+        position: relative;
+        background-color: whitesmoke;
+        
+        
+    }
+    #menylinje1{
+        width: 615px; 
+        height: 4px; 
+        position: absolute;
+        background-color: black; 
+        top: 130px;
+        
+    }
+    
+    #menylinje2{
+        position: absolute;
+        height: 4px;
+        top: 130px;
+        width: 630px;
+        left: 726px;
+        background-color: black; 
+    
+    }
+    #hexagon{
+        position: absolute; 
+        width: 20px; 
+        top: 100px;
+        right: 180px;
+    }
+    
+    #hexagon1{
+        position: absolute;
+        width: 20px;
+        top: 100px;
+        right: 125px;
+        
+    }
+    
+    #hexagon2{
+        position: absolute;
+        width: 20px;
+        top: 100px;
+        right: 70px;
+    }
+    
+    #logo{
+        position: absolute; 
+        top: 45px;
+        left: 525px;
+    }
+    #fb{
+        position: absolute; 
+        top: 90px; 
+        width: 30px;
+        left: 200px
+    }
+    #tw{
+        position: absolute;
+        top: 90px; 
+        width: 30px;
+        left: 150px;
+    }
+    #ig{
+        position: absolute; 
+        top: 84px; 
+        width: 40px;
+        left: 90px;
+    }
+    #sc{
+        position: absolute; 
+        top: 86px; 
+        width: 37px;
+        left: 40px
+    }
+
+    #VR{
+        top: 1012px;
+        right: 150px;
+    }
+     
+    
+    .hex{
+        position: absolute; 
+        height: 200px;
+        width: 230px;
+        opacity: 2;
+        
+    }
+    
+    .hex:hover{
+        opacity: 0.6;
+        box-shadow: 20px;
+    }
+
+    .fjerd{
+        height: 170px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-image: url(Fjerdingen%20hexagon%20copy%202.png); 
+        background-size: cover; 
+        padding: 20px;
+        position: absolute;
+        top: 900px;
+        left: 180px;
+        opacity: 2;
+        
+}
+
+ .fjerd:hover
+{
+    opacity: 0.6;
+    box-shadow: 20px;
+}
+
+.fjerd:hover:after
+{
+    content: attr(data-hover); 
+    font-size: 30px; 
+    font-weight: 200; 
+    color: black;
+    padding: 20px;
+    font-family:sans-serif;
+}
+
+    
+.vulk{
+        height: 170px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-image: url(Vulkan%20copy%202.png); 
+        background-size: cover; 
+        padding: 20px;
+        position: absolute;
+        left: 180px;
+        top: 1140px; 
+        opacity: 2;
+        
+}
+
+ .vulk:hover
+{
+    opacity: 0.6;
+}
+
+.vulk:hover:after
+{
+    content: attr(data-hover); 
+    font-size: 30px; 
+    font-weight: 200; 
+    color: black;
+    padding: 20px;
+    font-family:sans-serif;
+}
+
+.bren{
+        height: 170px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-image: url(Brenneriveien%20hexagon%20copy%202.png); 
+        background-size: cover; 
+        padding: 20px;
+        position: absolute;
+        left: 450px; 
+        top: 1012px;
+        opacity: 2;
+        
+}
+
+ .bren:hover
+{
+    opacity: 0.6;
+}
+
+.bren:hover:after
+{
+    content: attr(data-hover); 
+    font-size: 30px; 
+    font-weight: 200; 
+    color: black;
+    padding: 20px;
+    font-family:sans-serif;
+}
+
+.aktuelt{
+        height: 170px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-image: url(Aktuelt.png); 
+        background-size: cover; 
+        padding: 20px;
+        position: absolute;
+        top: 900px;
+        left: 720px; 
+
+        opacity: 2;
+        
+}
+
+ .aktuelt:hover
+{
+    opacity: 0.6;
+}
+
+.aktuelt:hover:after
+{
+    content: attr(data-hover); 
+    font-size: 30px; 
+    font-weight: 200; 
+    color: black;
+    padding: 20px;
+    font-family:sans-serif;
+}
+
+.makerspace{
+        height: 170px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-image: url(Makerspace.png); 
+        background-size: cover; 
+        padding: 20px;
+        position: absolute;
+        top: 1135px; 
+        left: 720px;
+        opacity: 2;
+        
+}
+
+ .makerspace:hover
+{
+    opacity: 0.6;
+}
+
+.makerspace:hover:after
+{
+    content: attr(data-hover); 
+    font-size: 30px; 
+    font-weight: 200; 
+    color: black;
+    padding: 20px;
+    font-family:sans-serif;
+}
+
+h1{
+    position: absolute;    
+    top: 750px;
+    left: 455px;
+    font-family: 'Open Sans', sans-serif;
+}
+.tekst{
+    position: absolute;
+    top: 470px;
+    left: 380px;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#forsidelinje{
+    position: absolute;
+    top: 700px;
+    left: 250px;
+    height: 1px;
+    width: 900px;
+    background-color: black;
+    
+}
+
+.overskrift{
+    position: absolute;
+    top: 350px;
+    left: 485px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+    
