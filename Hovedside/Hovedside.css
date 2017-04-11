@@ -1,8 +1,9 @@
  #container{
         width: 100%; 
-        height: 3000px; 
+        height: 2800px; 
         position: relative;
         background-color: whitesmoke;
+        margin: 0;
         
         
     }
@@ -299,5 +300,38 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
 }
+
+#forsidelinje2{
+    position: absolute;
+    top: 1500px;
+    left: 250px;
+    height: 1px;
+    width: 900px;
+    background-color: black;
+}
+
+/*#map{
+    position: absolute; 
+    top: 2000px;
+    right: 0p
+}*/
+
+.infoboks{
+    position: absolute;
+    height: 100px;
+    width: 1300px; 
+    background-color: darkgray; 
+    top: 2660px;
+    padding: 20px;
+    text-align:right;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(Logo-Westerdals.png); 
+    background-repeat: no-repeat;
+    background-size: 300px, 300px;
+    padding: 20px;
+    background-position:top; 
+}
+
+
 
     
