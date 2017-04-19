@@ -8,12 +8,12 @@
 }
 
 #container1{
-    width: 750px;
-    height: 349px;
+    width: 752px;
+    height: 350px;
     top: 200px;
     background-color: wheat;
     position: relative;
-    border: 1px solid black;
+
 }
 
 #velkommen{
@@ -41,7 +41,6 @@
     height: 350px;
     left: 752px;
     top: 200px;
-    background-color: blue;
     position: absolute;
 }
 
@@ -49,7 +48,6 @@
     width: 752px;
     height: 350px;
     top: 550px;
-    background-color: yellow;
     position: absolute;
 }
 
@@ -60,12 +58,11 @@
 
 #container4{
     width: 750px;
-    height: 348px;
+    height: 350px;
     left: 752px;
     top: 550px;
     background-color: wheat;
     position: absolute;
-    border: 1px solid black;
 }
 
 #container4text{
@@ -76,8 +73,8 @@
 
 #container5{
     width: 100%;
-    height: 700px;
-    top: 950px;
+    height: 600px;
+    top: 900px;
     background-color: whitesmoke;
     position: absolute;
 }
@@ -92,16 +89,73 @@
 #container5-1{
     width: 350px;
     height: 350px;
-    top: 50px;
+    top: 150px;
+    left: 100px;
     position: absolute;
 }
 
+#container5-1text{
+    left: 80px;
+    position: absolute;
+}
 
-#kunst{
+#kunstBilde{
     width: 250px;
     height: 250px;
+    top: 40px;
     position: absolute;
 }
+
+#container5-2{
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 600px;
+    position: absolute;
+}
+
+#container5-2text{
+    left: 80px;
+    position: absolute;
+}
+
+#videoBilde{
+    width: 250px;
+    top: 60px;
+    position: absolute;
+}
+
+#container5-3{
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 1050px;
+    position: absolute;
+}
+
+#container5-3text{
+    left: 80px;
+    position: absolute;
+}
+
+#skriveBilde{
+    width: 250px;
+    top: 50px;
+    position: absolute;
+    height: 250px;
+}
+
+#container6{
+    top: 550px;
+    position: absolute;
+    width: 100%;
+}
+
+#aktueltBilde{
+    position: absolute;
+    width: 100%;
+}
+
 #menylinje1{
     position: absolute;
     height: 4px;
@@ -114,7 +168,7 @@
     position: absolute;
     height: 4px;
     top: 89.5px;
-    width: 100%;
+    width: 702px;;
     left: 800px;
     background-color: black; 
     }
