@@ -2,78 +2,174 @@
 
 #container{
     width: 100%; 
-    height: 1000px; 
+    height: 2000px; 
     position: relative;
     background-color: whitesmoke; 
 }
+
+#container1{
+    width: 750px;
+    height: 349px;
+    top: 200px;
+    background-color: wheat;
+    position: relative;
+    border: 1px solid black;
+}
+
+#velkommen{
+    position: absolute;
+    left: 250px;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+#velkommenTekst{
+    position: absolute;
+    top: 60px;
+    font-size: 18px;
+    font-family:sans-serif;
+    padding: 20px;
+}
+
+#vulkanBygg{
+    width: 752px;
+    height: 350px;
+}
+
+#container2{
+    width: 752px;
+    height: 350px;
+    left: 752px;
+    top: 200px;
+    background-color: blue;
+    position: absolute;
+}
+
+#container3{
+    width: 752px;
+    height: 350px;
+    top: 550px;
+    background-color: yellow;
+    position: absolute;
+}
+
+#vulkanGate{
+    width: 752px;
+    height: 350px;
+}
+
+#container4{
+    width: 750px;
+    height: 348px;
+    left: 752px;
+    top: 550px;
+    background-color: wheat;
+    position: absolute;
+    border: 1px solid black;
+}
+
+#container4text{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#container5{
+    width: 100%;
+    height: 700px;
+    top: 950px;
+    background-color: whitesmoke;
+    position: absolute;
+}
+
+#container5text{
+    position: absolute;
+    left: 550px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#container5-1{
+    width: 350px;
+    height: 350px;
+    top: 50px;
+    position: absolute;
+}
+
+
+#kunst{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
 #menylinje1{
+    position: absolute;
+    height: 4px;
+    top: 89.5px;
     width: 700px; 
-    height: 4px; 
-    position: fixed;
     background-color: black; 
-    top: 129.5px;    
 }
     
 #menylinje2{
-    position: fixed;
+    position: absolute;
     height: 4px;
-    top: 129.5px;
+    top: 89.5px;
     width: 100%;
-    left: 807px;
+    left: 800px;
     background-color: black; 
     }
 
 #hexagon{
-    position: fixed; 
+    position: absolute; 
     width: 20px; 
-    top: 100px;
+    top: 50px;
     right: 180px;
 }
     
 #hexagon1{
-    position: fixed;
+    position: absolute;
     width: 20px;
-    top: 100px;
+    top: 50px;
     right: 125px;
 }
     
 #hexagon2{
-    position: fixed;
+    position: absolute;
     width: 20px;
-    top: 100px;
+    top: 50px;
     right: 70px;
 }
     
 #logo{
-    position: fixed; 
-    top: 45px;
-    left: 608px;
+    position: absolute; 
+    top: 5px;
+    left: 600px;
 }
     
 #fb{
-    position: fixed; 
-    top: 90px; 
+    position: absolute; 
+    top: 50px; 
     width: 30px;
     left: 200px
 }
 
 #tw{
-    position: fixed;
-    top: 90px; 
+    position: absolute;
+    top: 50px; 
     width: 30px;
     left: 150px;
 }
 
 #ig{
-    position: fixed; 
-    top: 84px; 
+    position: absolute; 
+    top: 46px; 
     width: 40px;
     left: 90px;
 }
 
 #sc{
-    position: fixed; 
-    top: 86px; 
+    position: absolute; 
+    top: 46px; 
     width: 37px;
     left: 40px
 }
