@@ -1,3 +1,2 @@
 # Webprosjekt
-Gruppe 13 Webprosjekt.. 
-Khalid likes it deep
+Gruppe 13 Webprosjekt...
