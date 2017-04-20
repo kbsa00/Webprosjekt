@@ -1,6 +1,6 @@
 #container{
         width: 100%; 
-        height: 2800px; 
+        height: 2200px; 
         position: relative;
         background-color: whitesmoke;
         margin: 0;
@@ -77,11 +77,6 @@
         left: 40px
     }
 
-    #VR{
-        top: 1012px;
-        right: 150px;
-    }
-     
     
     .hex{
         position: absolute; 
@@ -269,6 +264,39 @@
     font-family:sans-serif;
    
 }
+.VR{
+        height: 170px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-image: url(VR%20hexagon%20copy.png); 
+        background-size: cover; 
+        padding: 20px;
+        position: absolute;
+        top: 1012px;
+        right: 150px;
+        opacity: 2;
+        
+}
+
+ .VR:hover
+{
+    opacity: 0.6;
+}
+
+.VR:hover:after
+{
+    content: attr(data-hover); 
+    font-size: 30px; 
+    font-weight: 200; 
+    color: black;
+    padding: 20px;
+    font-family:sans-serif;
+   
+}
 
 h1{
     position: absolute;    
@@ -321,7 +349,7 @@ h1{
     height: 100px;
     width: 1300px; 
     background-color: darkgray; 
-    top: 2660px;
+    top: 2200px;
     padding: 20px;
     text-align:right;
     font-family: 'Open Sans', sans-serif;
@@ -339,5 +367,5 @@ h1{
     border-color: black;
     border: 10px;
     position: absolute; 
-    top: 1600px;
+    top: 1650px;
     left: 250px;
