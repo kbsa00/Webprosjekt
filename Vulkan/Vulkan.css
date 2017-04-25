@@ -231,7 +231,7 @@
 #map{
     width: 100%;
     height: 400px;
-    z-index: 3;
+    left: 250px;
     border-color: black;
     border: 10px;
 }
