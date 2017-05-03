@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>WOACT Social</title>
+    
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+   
+<!-- don't forget to change to your specific source here -->
+<script src="http://maps.google.com/maps/api/js?sensor=false" 
+          type="text/javascript"></script>
+    
+</head>
+    
+<body>
+    
+    <!-- header html code, don't mess with this -->
+    <div id="header">
+        
+    <img id="logo" src="wdals.png">
+    <img class="hexagons" id="hexagon" 
+    src="17619338_10210736187733678_641845115_n.png">
+    <img class="hexagons" id="hexagon1" src="17619338_10210736187733678_641845115_n.png">
+    <img class="hexagons" id="hexagon2" 
+    src="17619338_10210736187733678_641845115_n.png">
+    <img class="hexagons" id="hexagon3" src="17619338_10210736187733678_641845115_n.png">
+    <img class="hexagons" id="hexagon4" src="17619338_10210736187733678_641845115_n.png">
+    
+    <img id="fb" src="fb.png">    
+    <img id="tw" src="twitter_icon-aa3c1f5542de27e4810b43c5af1c756f.png">
+    <img id="ig" src="circle-social-instagram-512.png">
+    <img id="sc" src="SnapChat_Rounded_icon-icons.com_61574.png">
+    <div class="menylinjer" id="menylinje1"></div>
+    <div class="menylinjer" id="menylinje2"></div>
+    
+    </div>
+    
+    
+<!-- contents of the page -->
+<div id="container">
+    
+    <!-- Change to your specific campus -->
+    <h1 id="overskrift">
+        Fjerdingen
+    </h1>
+    
+    <!-- First "content" wrapper -->
+    <div id="wrap1">
+    
+        <!-- change the picture and text to what you want -->
+        <div id="bildewrap1">
+            <img id="bilde1" src="Fasade-fra-gaten.jpg">
+        </div>
+        <div id="tekstwrap1">
+            <p>
+                Skolen mente at det var fint at Westerdals Oslo ACT, med vårt nye skolebygg, hadde anledning til å tilføre området noe positivt i form av et solid og slitesterkt navn, som samtidig bidrar til at Osloboere blir litt bedre kjent med byens lokalhistorie. Dermed ble Fjerdingen til. 
+
+                Også Campus Vulkan og lokalene i Brenneriveien har navn som spiller på lokalhistorien, og dermed føyer campusnavnet Fjerdingen seg fint inn i den tradisjonen.
+            </p>
+            <p>
+                Faktisk har gata eksistert siden midten av 1600-tallet. Da het den Fjerdingens gate, fordi den løp gjennom området nord for Vaterland som da ble kalt Fjerdingen.
+            </p>
+        </div>
+        
+    </div>
+    
+    
+    <!-- line between each section of content -->
+    <div id="forsidelinje1"></div>
+    
+    <!-- Second "content" wrapper -->
+    <div id="wrap2">
+    
+        <!-- change the picture and text to what you want -->
+        <div id="tekstwrap2">
+            <p>
+                Fjerdingen utgjorde, i likhet med Vaterland lenger nede, en forstad til Christiania, og strakk seg langs elva helt ned til Vaterlands bru. Strøket var blant de eldste forstedene, og karakteristisk med bebyggelse helt ned til elva. Dette var fattigstrøk, og ikke overraskende ble det anlagt hele to fattighus her i 1807.
+            </p>
+            <p>
+                Blant industrielle minnesmerker står fortsatt Brødrene Ottesens Dampchokoladefabrikk i Nedre Vaskegang 2. Navnet er så vidt leselig i fasaden ut mot elva. Bygget er tegnet av arkitektene Ekman og Smith, som også tegnet det karakteristiske Indigo-bygget tilpasset svingen i elva litt lenger opp.
+            </p>
+        </div>
+        
+        <div id="bildewrap2">
+            <img id="bilde2" src="Elvaskole.jpeg">
+        </div>
+        
+    </div>
+    
+    <!-- line between each section of content -->
+    <div id="forsidelinje2"></div>
+    
+    
+    <!-- the style portion of the map should not be changed, keep it as is -->
+    <div id="map" style="margin-top: 150px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
+    
+    
+    <!-- footer -->
+    <div id="footer">
+        <img id="wdalslogo" src="Logo-Westerdals.png">
+        <p>Har du noen kule tips? Gjerne Kontakt oss:</p>
+        <li>Telefon: 22 05 75 50</li>
+        <li>Epost: post@westerdals.no</li>
+    </div>
+
+</div>    
+
+<!-- change to your own googlemaps code -->
+<script type="text/javascript">
+//Her skriver du inn navn,longitude og latitude, bilder i URL.  
+      var locations = [
+      ['Campus Fjerdingen', 59.916107,10.759980, 4, 
+       {url:'Fjerdingen hexagon-kopi.png',
+        scaledSize : new google.maps.Size(100, 100)} ],
+      ['Efesos Tyrkisk AS', 59.916960, 10.755960, 2,  {url:'pizza-kopi.ico',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Actic Treningssenter', 59.916180, 10.757616, 3,  {url:'dumbbell-png-image-64671-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Tehran Kebab House Restaurant', 59.916096, 10.757911, 1,  {url:'pizza-kopi.ico',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Haralds Gym', 59.915785, 10.758705, 5,  {url:'dumbbell-png-image-64671-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Cafe Sara', 59.917625, 10.754184, 6,  {url:'kaffekopp-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Verkstedet', 59.917714, 10.753985, 0,  {url:'Cocktail-icon-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Freddy Fuego Burrito Bar', 59.917816, 10.753846, 7,  {url:'knife-fork-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Crowbar & Bryggeri', 59.917200, 10.753605, 8,  {url:'Cocktail-icon-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Taco República', 59.917045, 10.753256, 9,  {url:'knife-fork-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Zaffran mat og grill', 59.917055, 10.752617, 10,  {url:'knife-fork-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Dalat Cafe Tran', 59.916821, 10.753621, 11,  {url:'kaffekopp-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Starbucks', 59.916200, 10.751976, 12,  {url:'kaffekopp-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Viet Nam House', 59.916035, 10.752409, 13,  {url:'knife-fork-kopi-png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Torggata Botaniske', 59.916093, 10.752163, 14,  {url:'Cocktail-icon-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Munchies', 59.916264, 10.751552, 15,  {url:'food-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Arakataka', 59.916358, 10.750850, 16,  {url:'kaffekopp-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Meatballs', 59.917929, 10.753629, 17,  {url:'knife-fork-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Wünderburger', 59.917371, 10.754201, 18,  {url:'food-kopi.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+    ];
+      //Map Størrelse, ZOOM eller center: Hvor du vil sirka kartet ska spawne når du åpner siden.
+   var map = new google.maps.Map(
+        document.getElementById('map'), 
+        {
+      zoom: 16,
+      center: new google.maps.LatLng(59.917243, 10.754016),
+      mapTypeId: google.maps.MapTypeId.ROADMAP, 
+ 
+//ALT INNEN FOR STYLES ER BARE KART THEME. DO NOT TOUCH! :) 
+    styles:
+        [
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": "-100"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 65
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": "50"
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": "-100"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": "30"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": "40"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#ffff00"
+            },
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -97
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -100
+            }
+        ]
+    }
+]    
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+ //Metode for bildet
+  var image = { 
+        url:'Vulkan.png',
+        scaledSize : new google.maps.Size(70, 70)
+          };
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map, 
+        icon: locations[i][4]     
+      });
+//Metode for Klikk på bildet. Ikke kødd med denne 
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+    
+</body>
+</html>
