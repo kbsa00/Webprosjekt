@@ -48,13 +48,13 @@
     <h1 id="overskrift">
         Aktuelt
     </h1>
-    <!-- Slides -->
+    <!-- Kopier her -->
     
     <div class="slidebilder">
   <img class="mySlides" src="Bilder/Aktuelt1.jpeg" style="width:100%" height="100%">
   <img class="mySlides" src="Bilder/Aktuelt2.jpeg" style="width:100%" height="100%">
-  <img class="mySlides" src="Bilder/Aktuelt3.jpeg" style="width:100%" height="100%">
-  <img class="mySlides" src="Bilder/Aktuelt4.jpg" style="width:100%" height="100%">
+  <img class="mySlides" src="Bilder/Aktuelt3.jpg" style="width:100%" height="100%">
+  <img class="mySlides" src="Bilder/Aktuelt4.jpeg" style="width:100%" height="100%" >
 
     </div>
     
@@ -62,7 +62,8 @@
     var myIndex = 0;
     carousel();
 
-    function carousel() {
+    function carousel() 
+{
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
@@ -71,8 +72,11 @@
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 20000); 
-}
+  }
+ 
+      setTimeout(carousel, 10000); 
+
+        
 </script>
 
     <div id="forsidelinje2"></div>
@@ -82,7 +86,7 @@
     
         <!-- change the picture and text to what you want -->
         <div id="bildewrap1">
-            <img id="bilde1" src="Bilder/wdals.png">
+            <img id="bilde1" src="Bilder/Biliotek%20Aktuelt.jpeg">
         </div>
         <div id="tekstwrap1">
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -112,7 +116,7 @@
         </div>
         
         <div id="bildewrap2">
-            <img id="bilde2" src="Bilder/wdals.png">
+            <img id="bilde2" src="Bilder/Kreativ%20aktuelt.jpg">
         </div>
         
     </div>
