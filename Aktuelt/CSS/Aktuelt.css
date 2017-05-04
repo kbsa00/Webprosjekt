@@ -108,6 +108,7 @@
 #wrap1{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3%;
     width: 1000px;
     height: 400px;
 }
@@ -126,13 +127,13 @@
 }
 
 #tekstwrap1{
-    /* add font ellerno idk */
+    
 }
 
 
 /* CSS code for section lines */
 #forsidelinje1, #forsidelinje2{
-    margin-top: 100px;
+    margin-top: 50px;
     display: block;
     background-color: black;
     height: 1px;
@@ -145,7 +146,7 @@
 /* css for bilde+tekstwrap2 */
 
 #wrap2{
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
@@ -159,6 +160,7 @@
 
 /* image width may be changed, but not to more than 500px */
 #bilde2{
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -176,25 +178,25 @@
 }
 
 #footer{
-    height: 100px;
+    height: 150px;
     width: 100%;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: darkgray;
+    background-color: black;
     text-align:right;
-    font-family: 'Open Sans', sans-serif;
+    right: 10%;
+    font-family: 'Open Sans', sans-serif; color: white;
+    
 }
 
 /*Bilder til slides */
 
 .slidebilder {
     position: relative;
-    top: 0%;
     margin: auto;
-    width: 88%;
-    height: 550px;
-    border: 5px solid black;
+    width: 65%;
+    height: 40%;
+    border: 3px solid black;
     overflow: hidden;
     
 }
