@@ -3,7 +3,8 @@
     html,
     body {
     margin: 0;
-    font-family: tahoma;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* header and container CSS */
