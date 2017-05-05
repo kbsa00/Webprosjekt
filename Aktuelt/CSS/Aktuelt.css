@@ -1,7 +1,7 @@
 /* Start of CSS-page */
 
-    html,
-    body {
+html,
+body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 
@@ -9,94 +9,94 @@
 
 /* header and container CSS */
 
-    #header{
-        width: 100%;
-        background-color: whitesmoke;
-        position: relative;
-        height: 200px;
-    }
-    #container{
-        margin: 0 auto;
-        margin-top: -20px;
-        width: 100%;
-        position: absolute;
-        background-color: whitesmoke;
-    }
-    
-    .menylinjer{
-        width: 46.5%; 
-        height: 3.2px; 
-        position: absolute;
-        top: 100px;
-        background-color: black;
-    }
+#header{
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    height: 200px;
+}
+#container{
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 100%;
+    position: absolute;
+    background-color: whitesmoke;
+}
 
-    #menylinje1{
-        left: 0;
-    }
+.menylinjer{
+    width: 46.5%; 
+    height: 3.2px; 
+    position: absolute;
+    top: 100px;
+    background-color: black;
+}
 
-    #menylinje2{
-        right: 0;
-    
-    }
+#menylinje1{
+    left: 0;
+}
 
-    .hexagons{
-        position: absolute; 
-        width: 30px; 
-        top: 60px;
-    }
+#menylinje2{
+    right: 0;
 
-     #hexagon{
-        right: 290px;
-    }
-    
-     #hexagon1{
-        right: 235px;
-    }
+}
 
-    #hexagon2{
-        right: 180px;
-    }
-    
-    #hexagon3{
-        right: 125px;
-    }
-    
-    #hexagon4{
-        right: 70px;
-    }
-    
-    #logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 150px;
-        overflow: hidden;
-    }
-    #fb{
-        position: absolute; 
-        top: 50px; 
-        width: 30px;
-        left: 200px;
-    }
-    #tw{
-        position: absolute;
-        top: 50px; 
-        width: 30px;
-        left: 150px;
-    }
-    #ig{
-        position: absolute; 
-        top: 45px; 
-        width: 40px;
-        left: 90px;
-    }
-    #sc{
-        position: absolute; 
-        top: 45px; 
-        width: 37px;
-        left: 40px
-    }
+.hexagons{
+    position: absolute; 
+    width: 30px; 
+    top: 60px;
+}
+
+#hexagon{
+    right: 290px;
+}
+
+#hexagon1{
+    right: 235px;
+}
+
+#hexagon2{
+    right: 180px;
+}
+
+#hexagon3{
+    right: 125px;
+}
+
+#hexagon4{
+    right: 70px;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    overflow: hidden;
+}
+#fb{
+    position: absolute; 
+    top: 50px; 
+    width: 30px;
+    left: 200px;
+}
+#tw{
+    position: absolute;
+    top: 50px; 
+    width: 30px;
+    left: 150px;
+}
+#ig{
+    position: absolute; 
+    top: 45px; 
+    width: 40px;
+    left: 90px;
+}
+#sc{
+    position: absolute; 
+    top: 45px; 
+    width: 37px;
+    left: 40px
+}
 
 /* contents of page */
 
@@ -129,7 +129,7 @@
 }
 
 #tekstwrap1{
-    
+
 }
 
 
@@ -188,7 +188,7 @@
     background-color: black;
     text-align: right;
     font-family: 'Open Sans', sans-serif; color: white;
-    
+
 }
 
 /*Bilder til slides */
@@ -201,7 +201,7 @@
     height: 620px;
     border: 3px solid black;
     overflow: hidden;
-    
+
 }
 
 /* end of template CSS */
