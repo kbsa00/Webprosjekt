@@ -57,7 +57,7 @@ h1
 {
    position: absolute;    
     top: 50%;
-    left: 37%;
+    left: 31%;
     font-family: 'Open Sans', sans-serif;
 }
 .tekst{
@@ -65,7 +65,7 @@ h1
     top: 152%;
     left: 29%;
     text-align: center; 
-    height: 40%;
+    height: 47%;
     width: 43%;
     font-size: 17px; 
     font-family:'Open Sans', sans-serif;
@@ -120,7 +120,7 @@ h1
     text-align: center; 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px; 
-    height: 50%;
+    height: 55%;
     width: 36%;
     overflow: hidden;
     top: 214%;
@@ -139,8 +139,8 @@ h1
 
 .youtube{
     position: absolute;
-    top: 285%;
-    left: 52%;    
+    top: 283%;
+    left: 54%;    
 }
 
 #Overskrift2{
@@ -154,7 +154,7 @@ h1
 #Overskrift3{
     position: absolute; 
     top: 272%; 
-    left: 56%; 
+    left: 52%; 
     font-family: 'Open Sans', sans-serif; 
     
 }
@@ -171,6 +171,14 @@ h1
     top: 286%;
     left: 12%;
     
+}
+
+#wdalslogo{
+    margin-top: 10px;
+    margin-left: 100px;
+    display: block;
+    float: left;
+    width: 250px;
 }
 
 
