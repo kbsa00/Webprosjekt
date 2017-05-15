@@ -1,28 +1,22 @@
 <?php
 
-$port = 3306;
-$username = "hauale16_anwarz";
-$password = "webprosjekt123";
-$name = "hauale16_webprosjekt";
-$host = "tek.westerdals.no";
-
-$connection = new PDO("mysql:host={$host};dbname={$name};port={$port};charset=utf8", $username, $password);
-        
-$statement = $connection->prepare('SELECT * FROM login_server');
+$db_port = 3306;
+$db_username = "hauale16_anwarz";
+$db_password = "webprosjekt123";
+$db_name = "hauale16_webprosjekt";
+$db_host = "tek.westerdals.no";
 
 
-while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-    $row;
+try {
+	$connection = new PDO("mysql:host={$db_host};dbname={$db_name};port={$db_port};charset=utf8", $db_username, $db_password);
+
+    foreach($connection->query('SELECT * from loggin_server') as $row) {
+        print_r($row);
+
+    }
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
 }
 
-echo $users['password'];
-
-if (($row['username'] == $_POST['user']) && ($row['password'] == $_POST['pass'])) {
-    echo "login success!!!";
-} else {
-    echo "failed to login!";
-}
-    
-    
 ?>
-

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" type="text/css" href="login.css" <div class="container">
+    <link rel="stylesheet" type="text/css" href="CSS/login.css" <div class="container">
     <div class="login">
         <h1>Login</h1>
         <form method="post" action="process.php">
