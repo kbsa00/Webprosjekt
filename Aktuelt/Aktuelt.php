@@ -1,3 +1,9 @@
+<?php 
+
+session_start(); 
+$user = $_SESSION['username']; 
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -115,6 +121,31 @@
             <div id="bildewrap2">
                 <img id="bilde2" src="Bilder/Kreativ%20aktuelt.jpg">
             </div>
+
+        </div>
+
+        <div id="innlogging">
+
+            <div>
+                <h2>Events</h2>
+            </div>
+
+            <?php if($user): ?>
+                <!--  Brukeren er logget inn --> 
+
+                <h2>Innlogget! :D <?php echo $user ?></h2>
+                <a href="loggout.php">Logg ut!</a>
+
+            <?php else: ?>
+                <!--  Brukeren er ikke logget inn --> 
+
+                <h3>Logg inn for se alle eventer!</h3>
+
+                <a href="login.php">Logg inn</a>
+
+
+            <?php endif;  ?>
+
 
         </div>
 
