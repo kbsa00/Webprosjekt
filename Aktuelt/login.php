@@ -1,3 +1,9 @@
+<?php session_start(); 
+
+
+echo $_SESSION['username']; 
+
+ ?>
 <!DOCTYPE html>
 <html>
 
@@ -10,12 +16,13 @@
     <link rel="stylesheet" type="text/css" href="CSS/login.css" <div class="container">
     <div class="login">
         <h1>Login</h1>
+
         <form method="post" action="process.php">
             <p>
-                <input type="text" id="user" name="user" placeholder="Brukernavn" />
+                <input type="text" name="username" placeholder="Brukernavn" />
             </p>
             <p>
-                <input type="password" name="pass" name="pass" placeholder="Passord" />
+                <input type="password" name="password" placeholder="Passord" />
             </p>
 
 
@@ -30,4 +37,4 @@
     <div class="login-help">
         </p>
     </div>
-    </div>
+ </div>
