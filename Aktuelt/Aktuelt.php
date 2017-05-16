@@ -127,24 +127,28 @@ $user = $_SESSION['username'];
         <div id="innlogging">
 
             <div>
-                <h2>Events</h2>
+                <h2>Hva skjer?</h2>
             </div>
 
             <?php if($user): ?>
-                <!--  Brukeren er logget inn --> 
+            <!--  Brukeren er logget inn -->
 
-                <h2>Innlogget! :D <?php echo $user ?></h2>
+            <div id="login-event">
+                <?php echo $user ?>
+
+
                 <a href="loggout.php">Logg ut!</a>
 
-            <?php else: ?>
-                <!--  Brukeren er ikke logget inn --> 
+                <?php else: ?>
+                <!--  Brukeren er ikke logget inn -->
 
                 <h3>Logg inn for se alle eventer!</h3>
 
                 <a href="login.php">Logg inn</a>
 
 
-            <?php endif;  ?>
+                <?php endif;  ?>
+            </div>
 
 
         </div>
