@@ -142,7 +142,8 @@ body {
 /* CSS code for section lines */
 
 #forsidelinje1,
-#forsidelinje2 {
+#forsidelinje2,
+#forsidelinje3 {
     margin-top: 50px;
     display: block;
     background-color: black;
@@ -217,12 +218,13 @@ body {
 }
 
 #login-event {
+    position: relative;
     margin: auto;
     margin-top: 3%;
     width: 1000px;
     height: 300px;
-    background-color: black;
-    opacity: 0.9;
+    border: 3px solid black;
+    text-align: center;
 }
 
 

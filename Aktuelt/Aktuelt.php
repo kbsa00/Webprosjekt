@@ -124,34 +124,37 @@ $user = $_SESSION['username'];
 
         </div>
 
-        <div id="innlogging">
+        <div id="forsidelinje3"></div>
 
-            <div>
-                <h2>Hva skjer?</h2>
-            </div>
+
+        <div id="login-event">
+            <h2>Hva skjer?</h2>
+
 
             <?php if($user): ?>
             <!--  Brukeren er logget inn -->
 
-            <div id="login-event">
-                <?php echo $user ?>
+            <p>Du er logget inn som -> <?php echo $user ?> </p>
 
+            <form action="loggout.php">
+                <input id="logoutbtn" type="submit" value="Logg ut" />
+            </form>
+            
+            <div id="event1"></div>
 
-                <a href="loggout.php">Logg ut!</a>
+            <?php else: ?>
+            <!--  Brukeren er ikke logget inn -->
 
-                <?php else: ?>
-                <!--  Brukeren er ikke logget inn -->
+            <h3>Her kan du logge inn for å se kommende eventer rundt campus</h3>
 
-                <h3>Logg inn for se alle eventer!</h3>
+            <form action="login.php">
+                <input id="loginbtn" type="submit" value="Logg inn" />
+            </form>
 
-                <a href="login.php">Logg inn</a>
-
-
-                <?php endif;  ?>
-            </div>
-
-
+            <?php endif;  ?>
         </div>
+
+
 
         <!-- footer -->
         <div id="footer">
