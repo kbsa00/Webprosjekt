@@ -41,15 +41,18 @@
 
     .hexagons{
         position: absolute; 
-        width: 30px; 
-        top: 60px;
+        width: 40px; 
+        top: 50px;
     }
 
-     #hexagon{
+    #hexagon5{
+    right: 345px;
+    }
+    #hexagon{
         right: 290px;
     }
     
-     #hexagon1{
+    #hexagon1{
         right: 235px;
     }
 
@@ -74,25 +77,25 @@
     }
     #fb{
         position: absolute; 
-        top: 50px; 
+        top: 55px; 
         width: 30px;
         left: 200px;
     }
     #tw{
         position: absolute;
-        top: 50px; 
+        top: 55px; 
         width: 30px;
         left: 150px;
     }
     #ig{
         position: absolute; 
-        top: 45px; 
+        top: 50px; 
         width: 40px;
         left: 90px;
     }
     #sc{
         position: absolute; 
-        top: 45px; 
+        top: 50px; 
         width: 37px;
         left: 40px
     }
@@ -123,7 +126,8 @@
 #bilde1{
     display: block;
     margin-right: auto;
-    width: 400px;
+    width: 450px;
+    height: 400px;
     border: 1.5px solid black;
     height: 300px;
 }
@@ -171,8 +175,17 @@
     
 }
 
-/* footer css, don't change this */
+#kartboks{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#kartoverskrift, #karttekst, #karttekst2{
+    font-family:sans-serif;
+}
 
+/* footer css, don't change this */
 
 #underoverskrift{
     margin-top: -50px;

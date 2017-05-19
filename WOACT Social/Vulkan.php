@@ -21,57 +21,7 @@
     
 <body>
     
-    <!-- header html code, don't mess with this -->
-    <div id="header">
-        
-    <a href="Forside.html">
-        <img id="logo" src="../Bilder/Logo/wdals.png">
-    </a>    
-    <a href="Fjerdingen.html">
-        <img class="hexagons" id="hexagon5" 
-        src="../BILDER/Hexagon/Fjerdingen.png">
-    </a>
-    <a href="Vulkan.html">
-        <img class="hexagons" id="hexagon" 
-        src="../BILDER/Hexagon/Vulkan.png">
-    </a>
-    <a href="Brenneriveien.html">
-        <img class="hexagons" id="hexagon1"
-        src="../BILDER/Hexagon/Brenneriveien.png">
-    </a>
-    <a href="Aktuelt.html">
-        <img class="hexagons" id="hexagon2" 
-        src="../BILDER/Hexagon/Aktuelt.png">
-    </a>
-    <a href="VR.html">
-        <img class="hexagons" id="hexagon3"
-        src="../BILDER/Hexagon/VirtualReality.png">
-    </a>
-    <a href="MS.html">
-        <img class="hexagons" id="hexagon4" 
-        src="../BILDER/Hexagon/Makerspace.png">
-    </a>
-    
-        
-    <a href="https://www.facebook.com/westerdalsosloact/?fref=ts" target="_blank">
-        <img id="fb" src="../Bilder/Header/fb.png">    
-    </a>
-    <a href="https://twitter.com/westerdalsact" target="_blank">    
-        <img id="tw" src="../Bilder/Header/tw.png">
-    </a>
-    <a href="https://www.instagram.com/westerdalsact/" target="_blank">
-        <img id="ig" src="../Bilder/Header/ig.png">
-    </a>
-    <a href="https://www.snapchat.com/add/westerdalsact" target="_blank">
-        <img id="sc" src="../Bilder/Header/sc.png">
-    </a>
-        
-        
-    <div class="menylinjer" id="menylinje1"></div>
-    <div class="menylinjer" id="menylinje2"></div>
-    
-    </div>
-    
+    <?php require'header.php';?>
     
 <!-- contents of the page -->
 <div id="container">
@@ -144,16 +94,7 @@
     <!-- the style portion of the map should not be changed, keep it as is -->
     <div id="map" style="margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
     
-    
-    <!-- footer -->
-    <div id="footer">
-        <div id="fwrap">
-            <img id="wdalslogo" src="../BILDER/Logo/wdals-full-logo-hvit.png">
-            <p>Har du noen kule tips? Gjerne Kontakt oss:</p>
-            <li>Telefon: 22 05 75 50</li>
-            <li>Epost: post@westerdals.no</li>
-        </div>
-    </div>
+    <?php require'footer.php';?>
 
 </div>    
 

@@ -11,7 +11,8 @@
     
 <link href="../CSS/stylesheet_brenneriveien.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="../BILDER/Logo/westerdals-logo.png"/>    
+<link rel="shortcut icon" type="image/x-icon" href="../BILDER/Logo/westerdals-logo.png">
+    
 <!-- don't forget to change to your specific source here -->
 <script src="http://maps.google.com/maps/api/js?sensor=false" 
           type="text/javascript"></script>
@@ -27,36 +28,43 @@
         <img id="logo" src="../Bilder/Logo/wdals.png">
     </a>    
     <a href="Fjerdingen.html">
-        <img class="hexagons" id="hexagon" 
-        src="../BILDER/Hexagon/temphex.png">
+        <img class="hexagons" id="hexagon5" 
+        src="../BILDER/Hexagon/Fjerdingen.png">
     </a>
     <a href="Vulkan.html">
-        <img class="hexagons" id="hexagon1"
-        src="../BILDER/Hexagon/temphex.png">
+        <img class="hexagons" id="hexagon" 
+        src="../BILDER/Hexagon/Vulkan.png">
     </a>
     <a href="Brenneriveien.html">
-        <img class="hexagons" id="hexagon2" 
-        src="../BILDER/Hexagon/temphex.png">
+        <img class="hexagons" id="hexagon1"
+        src="../BILDER/Hexagon/Brenneriveien.png">
     </a>
     <a href="Aktuelt.html">
-        <img class="hexagons" id="hexagon3"
-        src="../BILDER/Hexagon/temphex.png">
+        <img class="hexagons" id="hexagon2" 
+        src="../BILDER/Hexagon/Aktuelt.png">
     </a>
     <a href="VR.html">
-        <img class="hexagons" id="hexagon4" 
-        src="../BILDER/Hexagon/temphex.png">
+        <img class="hexagons" id="hexagon3"
+        src="../BILDER/Hexagon/VirtualReality.png">
     </a>
+    <a href="MS.html">
+        <img class="hexagons" id="hexagon4" 
+        src="../BILDER/Hexagon/Makerspace.png">
+    </a>
+    
         
-    <a href="https://www.facebook.com/westerdalsosloact/?fref=ts">
+    <a href="https://www.facebook.com/westerdalsosloact/?fref=ts" target="_blank">
         <img id="fb" src="../Bilder/Header/fb.png">    
     </a>
-    <a href="https://twitter.com/westerdalsact">    
+    <a href="https://twitter.com/westerdalsact" target="_blank">    
         <img id="tw" src="../Bilder/Header/tw.png">
     </a>
-    <a href="https://www.instagram.com/westerdalsact/">
+    <a href="https://www.instagram.com/westerdalsact/" target="_blank">
         <img id="ig" src="../Bilder/Header/ig.png">
     </a>
-    <img id="sc" src="../Bilder/Header/sc.png">
+    <a href="https://www.snapchat.com/add/westerdalsact" target="_blank">
+        <img id="sc" src="../Bilder/Header/sc.png">
+    </a>
         
         
     <div class="menylinjer" id="menylinje1"></div>
@@ -117,9 +125,20 @@
     <!-- line between each section of content -->
     <div id="forsidelinje2"></div>
     
+    <div id="kartboks">
+    <h2 id=kartoverskrift>
+        Finn aktiviteter og spisesteder i nærområdet!
+    </h2>
+    <p id="karttekst">
+        Vi har funnet frem mange spisesteder, barer og aktiviteter i nærheten av våre Campus.
+    </p>
+    <p id=karttekst2>
+        Trykk på ikonene for å få mer informasjon.
+    </p>
+    </div>
     
     <!-- the style portion of the map should not be changed, keep it as is -->
-    <div id="map" style="margin-top: 100px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
+    <div id="map" style="margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
     
     
     <!-- footer -->
@@ -189,8 +208,8 @@
         document.getElementById('map'), 
         {
       zoom: 17,
+      scrollwheel: false,
       center: new google.maps.LatLng(59.9198339,10.7519318),
-       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP, 
  
 //ALT INNEN FOR STYLES ER BARE KART THEME. DO NOT TOUCH! :) 

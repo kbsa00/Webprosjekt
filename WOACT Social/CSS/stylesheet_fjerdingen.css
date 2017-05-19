@@ -41,15 +41,18 @@
 
     .hexagons{
         position: absolute; 
-        width: 30px; 
-        top: 60px;
+        width: 40px; 
+        top: 50px;
     }
 
-     #hexagon{
+    #hexagon5{
+    right: 345px;
+    }
+    #hexagon{
         right: 290px;
     }
     
-     #hexagon1{
+    #hexagon1{
         right: 235px;
     }
 
@@ -74,25 +77,25 @@
     }
     #fb{
         position: absolute; 
-        top: 50px; 
+        top: 55px; 
         width: 30px;
         left: 200px;
     }
     #tw{
         position: absolute;
-        top: 50px; 
+        top: 55px; 
         width: 30px;
         left: 150px;
     }
     #ig{
         position: absolute; 
-        top: 45px; 
+        top: 50px; 
         width: 40px;
         left: 90px;
     }
     #sc{
         position: absolute; 
-        top: 45px; 
+        top: 50px; 
         width: 37px;
         left: 40px
     }
@@ -125,16 +128,10 @@
 /* image width may be changed, but not to more than 500px */
 #bilde1{
     display: block;
-    margin-left: auto;
     margin-right: auto;
     width: 470px;
     border: 1.5px solid black;
 }
-
-#tekstwrap1{
-    /* add font ellerno idk */
-}
-
 
 /* CSS code for section lines */
 #forsidelinje1, #forsidelinje2{
@@ -151,14 +148,14 @@
 /* css for bilde+tekstwrap2 */
 
 #wrap2{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
     height: 400px;
 }
 
-h2{
+#wrap2overskrift{
  font-family: 'Open Sans', sans-serif;   
 }
 
@@ -175,6 +172,16 @@ h2{
     margin-right: auto;
     width: 490px;
     border: 1.5px solid black;
+}
+
+#kartboks{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#kartoverskrift, #karttekst, #karttekst2{
+    font-family: 'Opens Sans', sans-serif;
 }
 
 /* footer css, don't change this */

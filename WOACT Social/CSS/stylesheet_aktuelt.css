@@ -41,15 +41,18 @@
 
     .hexagons{
         position: absolute; 
-        width: 30px; 
-        top: 60px;
+        width: 40px; 
+        top: 50px;
     }
 
-     #hexagon{
+    #hexagon5{
+    right: 345px;
+    }
+    #hexagon{
         right: 290px;
     }
     
-     #hexagon1{
+    #hexagon1{
         right: 235px;
     }
 
@@ -74,25 +77,25 @@
     }
     #fb{
         position: absolute; 
-        top: 50px; 
+        top: 55px; 
         width: 30px;
         left: 200px;
     }
     #tw{
         position: absolute;
-        top: 50px; 
+        top: 55px; 
         width: 30px;
         left: 150px;
     }
     #ig{
         position: absolute; 
-        top: 45px; 
+        top: 50px; 
         width: 40px;
         left: 90px;
     }
     #sc{
         position: absolute; 
-        top: 45px; 
+        top: 50px; 
         width: 37px;
         left: 40px
     }

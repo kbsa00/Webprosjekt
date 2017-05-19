@@ -7,9 +7,9 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Virtual Reality</title>
+        <title>Makerspace</title>
 
-        <link href="../CSS/stylesheet_vr.css" rel="stylesheet" type="text/css">
+        <link href="../CSS/stylesheet_ms.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="../BILDER/Logo/westerdals-logo.png">
 
@@ -17,70 +17,21 @@
 
     <body>
 
-    <!-- header html code, don't mess with this -->
-    <div id="header">
-        
-    <a href="Forside.html">
-        <img id="logo" src="../Bilder/Logo/wdals.png">
-    </a>    
-    <a href="Fjerdingen.html">
-        <img class="hexagons" id="hexagon5" 
-        src="../BILDER/Hexagon/Fjerdingen.png">
-    </a>
-    <a href="Vulkan.html">
-        <img class="hexagons" id="hexagon" 
-        src="../BILDER/Hexagon/Vulkan.png">
-    </a>
-    <a href="Brenneriveien.html">
-        <img class="hexagons" id="hexagon1"
-        src="../BILDER/Hexagon/Brenneriveien.png">
-    </a>
-    <a href="Aktuelt.html">
-        <img class="hexagons" id="hexagon2" 
-        src="../BILDER/Hexagon/Aktuelt.png">
-    </a>
-    <a href="VR.html">
-        <img class="hexagons" id="hexagon3"
-        src="../BILDER/Hexagon/VirtualReality.png">
-    </a>
-    <a href="MS.html">
-        <img class="hexagons" id="hexagon4" 
-        src="../BILDER/Hexagon/Makerspace.png">
-    </a>
-    
-        
-    <a href="https://www.facebook.com/westerdalsosloact/?fref=ts" target="_blank">
-        <img id="fb" src="../Bilder/Header/fb.png">    
-    </a>
-    <a href="https://twitter.com/westerdalsact" target="_blank">    
-        <img id="tw" src="../Bilder/Header/tw.png">
-    </a>
-    <a href="https://www.instagram.com/westerdalsact/" target="_blank">
-        <img id="ig" src="../Bilder/Header/ig.png">
-    </a>
-    <a href="https://www.snapchat.com/add/westerdalsact" target="_blank">
-        <img id="sc" src="../Bilder/Header/sc.png">
-    </a>
-        
-        
-    <div class="menylinjer" id="menylinje1"></div>
-    <div class="menylinjer" id="menylinje2"></div>
-    
-    </div>
-
+    <?php require'header.php';?>
 
         <!-- contents of the page -->
         <div id="container">
 
             <!-- Change to your specific campus -->
             <h1 id="overskrift">
-                Virtual Reality
+                Makerspace
             </h1>
             <!-- Kopier her -->
 
             <div class="slidebilder">
-                <img class="mySlides" src="../BILDER/VR/slide-img-1.jpg" style="width:100%">
-                <img class="mySlides" src="../BILDER/VR/slide-img-2.jpg" style="width:100%">
+                <img class="mySlides" src="../BILDER/MS/slide-img-1.jpg" style="width:100%">
+                <img class="mySlides" src="../BILDER/MS/slide-img-2.jpg" style="width:100%">
+                <img class="mySlides" src="../BILDER/MS/slide-img-3.jpg" style="width:100%">
             </div>
 
 
@@ -111,7 +62,7 @@
 
                 <!-- change the picture and text to what you want -->
                 <div id="bildewrap1">
-                    <img id="bilde1" src="../BILDER/VR/img-1.jpg">
+                    <img id="bilde1" src="../BILDER/MS/img-1.jpg">
                 </div>
                 <div id="tekstwrap1">
                     <p>Som student hos Westerdals Oslo ACT, vil du ha muligheten til å spille på optimaliserte gaming-datamaskiner på Campus Brenneriet. Her kan du bli kjent med nye mennesker fra forskjellige linjer, og ikke minst, få muligheten til å bygge ditt eget nettverk blant likesinnede. Campus Brenneriet har også populære VR-Headset, som Oculus Rift og HTC Vive. Vi har dedikerte rom til gaming og spillutvikling, og i tillegg til dette, et eget "green screen"-rom.</p>
@@ -136,21 +87,13 @@
                 </div>
 
                 <div id="bildewrap2">
-                    <iframe width="480" height="315" src="https://www.youtube.com/embed/mHH-DBMbDW0" frameborder="0" allowfullscreen></iframe>
+                    <img id="bilde2" src="../BILDER/MS/img-2.jpg">
                 </div>
 
             </div>
 
-
-        <!-- footer -->
-        <div id="footer">
-            <div id="fwrap">
-            <img id="wdalslogo" src="../BILDER/Logo/wdals-full-logo-hvit.png">
-            <p>Har du noen kule tips? Gjerne Kontakt oss:</p>
-            <li>Telefon: 22 05 75 50</li>
-            <li>Epost: post@westerdals.no</li>
-            </div>    
-        </div>
+            <?php require'footer.php';?>
+            
     </div>
 </body>
 </html>

@@ -7,9 +7,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Campus Fjerdingen</title>
+<title>Campus Brenneriet</title>
     
-<link href="../CSS/stylesheet_fjerdingen.css" rel="stylesheet" type="text/css">
+<link href="../CSS/stylesheet_brenneriveien.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="shortcut icon" type="image/x-icon" href="../BILDER/Logo/westerdals-logo.png">
     
@@ -21,56 +21,7 @@
     
 <body>
     
-    <!-- header html code, don't mess with this -->
-    <div id="header">
-        
-    <a href="Forside.html">
-        <img id="logo" src="../Bilder/Logo/wdals.png">
-    </a>    
-    <a href="Fjerdingen.html">
-        <img class="hexagons" id="hexagon5" 
-        src="../BILDER/Hexagon/Fjerdingen.png">
-    </a>
-    <a href="Vulkan.html">
-        <img class="hexagons" id="hexagon" 
-        src="../BILDER/Hexagon/Vulkan.png">
-    </a>
-    <a href="Brenneriveien.html">
-        <img class="hexagons" id="hexagon1"
-        src="../BILDER/Hexagon/Brenneriveien.png">
-    </a>
-    <a href="Aktuelt.html">
-        <img class="hexagons" id="hexagon2" 
-        src="../BILDER/Hexagon/Aktuelt.png">
-    </a>
-    <a href="VR.html">
-        <img class="hexagons" id="hexagon3"
-        src="../BILDER/Hexagon/VirtualReality.png">
-    </a>
-    <a href="MS.html">
-        <img class="hexagons" id="hexagon4" 
-        src="../BILDER/Hexagon/Makerspace.png">
-    </a>
-    
-        
-    <a href="https://www.facebook.com/westerdalsosloact/?fref=ts" target="_blank">
-        <img id="fb" src="../Bilder/Header/fb.png">    
-    </a>
-    <a href="https://twitter.com/westerdalsact" target="_blank">    
-        <img id="tw" src="../Bilder/Header/tw.png">
-    </a>
-    <a href="https://www.instagram.com/westerdalsact/" target="_blank">
-        <img id="ig" src="../Bilder/Header/ig.png">
-    </a>
-    <a href="https://www.snapchat.com/add/westerdalsact" target="_blank">
-        <img id="sc" src="../Bilder/Header/sc.png">
-    </a>
-        
-        
-    <div class="menylinjer" id="menylinje1"></div>
-    <div class="menylinjer" id="menylinje2"></div>
-    
-    </div>
+    <?php require'header.php';?>
     
     
 <!-- contents of the page -->
@@ -78,7 +29,7 @@
     
     <!-- Change to your specific campus -->
     <h1 id="overskrift">
-       Campus Fjerdingen
+        Campus Brenneriet
     </h1>
     
     <!-- First "content" wrapper -->
@@ -86,18 +37,14 @@
     
         <!-- change the picture and text to what you want -->
         <div id="bildewrap1">
-            <img id="bilde1" src="../Bilder/Fjerdingen/img-1.jpg">
+            <img id="bilde1" src="../BILDER/Brenneriveien/img-1.jpg">
         </div>
         <div id="tekstwrap1">
             <p>
-                Campus Fjerdingen er den nyeste skolebygget som ble ferdig høsten 2016. Skolen ligger på Christian Kroghs gate.
-                
-                Navnet "Fjerdingen" ble til da skolen mente at det var fint at Westerdals Oslo ACT, med vårt nye skolebygg, hadde anledning til å tilføre området noe positivt i form av et solid og slitesterkt navn, som samtidig bidrar til at Osloboere blir litt bedre kjent med byens lokalhistorie. Dermed ble Fjerdingen til. 
-
+                Vårt Campus på Brenneriet har mye å tilby til deg som er interessert i kunst, kultur og konserter. Ta en tur innom brenneriveien for å oppleve noe av den fineste gatekunsten, laget av kunstnere fra hele verden. Bare på en kort tur får du se fantastiske malerier både i øst og vest. På brenneriet kan du ikke bare se på gatekunsten, men frilansere viser også frem sin kunst på eget galleri om søndager. Dette kan du selv oppleve mellom klokken 13.00 og 15.00, hvor det også er åpent for salg.
             </p>
             <p>
-                Ved Campus Fjerdingen så tilbyr skolen med bar, kantine, bibliotek hvor du kan låne alt fra bøker til brettspill. Skolen tilbyr også makerspace, hvor det er 3D printere og andre kule utstyr som man kan teste ut og være kreative med.
-                
+                Brenneriveien er Oslos mest historiske kulturbydel. I dette området finnes også det velkjente søndagsmarkedet rett ved Akerselvas bredder. Dersom konserter er din greie kan du reise innom Blå og Ingensteds for å oppleve både nasjonale og internasjonale artister. Lenger nede kan du se ulike spisesteder og barer i nærheten.
             </p>
         </div>
         
@@ -109,22 +56,19 @@
     
     <!-- Second "content" wrapper -->
     <div id="wrap2">
-        <h2 id="wrap2overskrift">Fjerdingens Gate</h2>
+    
         <!-- change the picture and text to what you want -->
         <div id="tekstwrap2">
-            <p> Gaten har faktisk eksistert siden midten av 1600-tallet. Da het den         Fjerdingens gate, fordi den løp gjennom området nord for Vaterland som       da ble kalt Fjerdingen.
-                
-                Fjerdingen utgjorde, i likhet med Vaterland lenger nede, en forstad til Christiania, og strakk seg langs elva helt ned til Vaterlands bru. Strøket var blant de eldste forstedene, og karakteristisk med bebyggelse helt ned til elva. Dette var fattigstrøk, og ikke overraskende ble det anlagt hele to fattighus her i 1807.
+            <p>
+                Brenneriet ligger kun et steinkast unna Campus Vulkan. Med bare noen få fottrinn kan du komme deg fra det flotte moderne Campus Vulkan, til det kulturrike Campus Brenneriet. Her befinner det seg studenter fra maske- og hårdesign, i tillegg til deler av avdeling for spill, film og TV. Fra nattens danseliv til dagens mer kunstneriske side, finner du definitivt noe for deg. På Campus finnes det green screen-rom, grov- og finverksted og klipperom.
             </p>
             <p>
-                Blant industrielle minnesmerker står fortsatt Brødrene Ottesens Dampchokoladefabrikk i Nedre Vaskegang 2. Navnet er så vidt leselig i fasaden ut mot elva. Bygget er tegnet av arkitektene Ekman og Smith, som også tegnet det karakteristiske Indigo-bygget tilpasset svingen i elva litt lenger opp.
-                
-                Campus Vulkan og lokalene i Brenneriveien har også navn som spiller på lokalhistorien, og dermed føyer campusnavnet Fjerdingen seg fint inn i den tradisjonen.
+                Campus har blitt fornyet med nytt gulv, vegger og nymalte undervisningsrom, hvor kun bærebjelkene står igjen. Dette er for å kunne la den sterke kulturen stå igjen i alle byggene langs Akerselvas industriarv. 
             </p>
         </div>
         
         <div id="bildewrap2">
-            <img id="bilde2" src="../Bilder/Fjerdingen/img-2.jpeg">
+            <img id="bilde2" src="../BILDER/Brenneriveien/img-2.jpg">
         </div>
         
     </div>
@@ -148,15 +92,7 @@
     <div id="map" style="margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
     
     
-    <!-- footer -->
-    <div id="footer">
-        <div id="fwrap">
-            <img id="wdalslogo" src="../BILDER/Logo/wdals-full-logo-hvit.png">
-            <p>Har du noen kule tips? Gjerne Kontakt oss:</p>
-            <li>Telefon: 22 05 75 50</li>
-            <li>Epost: post@westerdals.no</li>
-        </div>
-    </div>
+    <?php require'footer.php';?>
 
 </div>    
 
@@ -164,77 +100,59 @@
 <script type="text/javascript">
 //Her skriver du inn navn,longitude og latitude, bilder i URL.  
       var locations = [
-      ['Campus Fjerdingen', 59.916107,10.759980, 1, 
+      ['Campus Brenneriet', 59.920054,10.7525318, 1,  
+       {url:'../Bilder/Hexagon/Brenneriveien.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Campus Fjerdingen', 59.916107,10.759980, 2, 
        {url:'../Bilder/Hexagon/Fjerdingen.png',
-        scaledSize : new google.maps.Size(100, 100)} ],
-      ['Campus Vulkan', 59.923353, 10.75236, 2,  
+        scaledSize : new google.maps.Size(70, 70)} ],
+      ['Campus Vulkan', 59.923353, 10.75236, 3,  
        {url:'../Bilder/Hexagon/Vulkan.png',
         scaledSize : new google.maps.Size(70, 70)}],
-      ['Campus Brenneriet', 59.920298, 10.752712, 3,  
-       {url:'../Bilder/Hexagon/Brenneriveien.png',
-        scaledSize : new google.maps.Size(70, 70)}],
-      ['Efesos Tyrkisk AS', 59.916960, 10.755960, 4, 
-       {url:'../Bilder/GoogleMaps/pizza.png',
+      ['Blå', 59.9201164,10.7530501, 4, 
+       {url:'../Bilder/GoogleMaps/cocktail.png',
+        scaledSize : new google.maps.Size(40, 40)} ],
+      ['britt powers', 59.9204042,10.7526689, 5, 
+       {url:'../Bilder/GoogleMaps/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)} ],
+      ['Kuma', 59.9203146,10.7529034, 6,  
+       {url:'../Bilder/GoogleMaps/cart.png',
         scaledSize : new google.maps.Size(40, 40)}],
-      ['Actic Treningssenter', 59.916180, 10.757616, 5, 
-       {url:'../Bilder/GoogleMaps/dumbbell.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Tehran Kebab House Restaurant', 59.916096, 10.757911, 6, 
-       {url:'../Bilder/GoogleMaps/pizza.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Haralds Gym', 59.915785, 10.758705, 7, 
-       {url:'../Bilder/GoogleMaps/dumbbell.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Cafe Sara', 59.917625, 10.754184, 8,  
-       {url:'../Bilder/GoogleMaps/kaffekopp.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Verkstedet', 59.917714, 10.753985, 9,  
+      ['X-Ray Ungdomskulturhus', 59.9200676,10.7521184, 7,  
        {url:'../Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)}],
-      ['Freddy Fuego Burrito Bar', 59.917816, 10.753846, 10,  
+      ['Delhi Tandoori', 59.9196866,10.7513497, 8,  
        {url:'../Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],
-      ['Crowbar & Bryggeri', 59.917200, 10.753605, 11,  
+      ['Taxi Take Away', 59.9194769,10.7512829, 9,  
+       {url:'../Bilder/GoogleMaps/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Today Grill & Pizza', 59.9193306,10.7509687, 10,  
+       {url:'../Bilder/GoogleMaps/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Gourmet Pizza Grill', 59.9193913,10.7506003, 11,  
+       {url:'../Bilder/GoogleMaps/knife-fork.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Orlandos Pub', 59.9194409,10.7502574, 12,  
        {url:'../Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)}],
-      ['Taco República', 59.917045, 10.753256, 12,  
+      ['Filippa Sushi', 59.9195072,10.7496785, 13,  
        {url:'../Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],
-      ['Zaffran mat og grill', 59.917055, 10.752617, 13,  
+      ['Grusomhetens Teater', 59.9191488,10.7520666, 14,  
+       {url:'../Bilder/GoogleMaps/kino.png',
+        scaledSize : new google.maps.Size(40, 40)}],
+      ['Pjoltergeist', 59.9196556,10.74866, 15,  
        {url:'../Bilder/GoogleMaps/knife-fork.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Dalat Cafe Tran', 59.916821, 10.753621, 14,  
-       {url:'../Bilder/GoogleMaps/kaffekopp.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Starbucks', 59.916200, 10.751976, 15,  
-       {url:'../Bilder/GoogleMaps/kaffekopp.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Viet Nam House', 59.916035, 10.752409, 16,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Torggata Botaniske', 59.916093, 10.752163, 17,  
-       {url:'../Bilder/GoogleMaps/cocktail.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Munchies', 59.916264, 10.751552, 18,  
-       {url:'../Bilder/GoogleMaps/food.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Arakataka', 59.916358, 10.750850, 19,  
-       {url:'../Bilder/GoogleMaps/kaffekopp.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Meatballs', 59.917929, 10.753629, 20,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['Wünderburger', 59.917371, 10.754201, 21,  
-       {url:'../Bilder/GoogleMaps/food.png',
-        scaledSize : new google.maps.Size(40, 40)}],
+        scaledSize : new google.maps.Size(40, 40)}],  
     ];
       //Map Størrelse, ZOOM eller center: Hvor du vil sirka kartet ska spawne når du åpner siden.
-   var map = new google.maps.Map(
+    var map = new google.maps.Map(
         document.getElementById('map'), 
         {
-      zoom: 16,
+      zoom: 17,
       scrollwheel: false,
-      center: new google.maps.LatLng(59.917243, 10.754016),
+      center: new google.maps.LatLng(59.9198339,10.7519318),
       mapTypeId: google.maps.MapTypeId.ROADMAP, 
  
 //ALT INNEN FOR STYLES ER BARE KART THEME. DO NOT TOUCH! :) 
@@ -371,7 +289,7 @@
     var marker, i;
  //Metode for bildet
   var image = { 
-        url:'../Bilder/Vulkan.png',
+        url:'Vulkan.png',
         scaledSize : new google.maps.Size(70, 70)
           };
     for (i = 0; i < locations.length; i++) {  

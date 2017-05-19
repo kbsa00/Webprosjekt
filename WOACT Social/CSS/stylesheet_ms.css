@@ -152,19 +152,22 @@
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
-    height: 350px;
+    height: 400px;
 }
 
 #tekstwrap2{
-    font-family: 'Open Sans', sans-serif;
     margin-top: -20px;
+    font-family: 'Open Sans', sans-serif;
     width: 450px;;
     float: left;
 }
 
-#bildewrap2{
-    width: 500px;
-    float: right;
+#bilde2{
+    display: block;
+    margin-left: auto;
+    width: 450px;
+    height: 350px;
+    border: 1.5px solid black;
 }
 
 /* image width may be changed, but not to more than 500px */
