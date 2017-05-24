@@ -190,6 +190,33 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+#overskrift3{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#wrap4{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    margin-top: 90px;
+    
+}
+#tekst3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+#tekstwrap3{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
 #footer{
     height: 100px;
     width: 100%;
