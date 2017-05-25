@@ -138,9 +138,13 @@ $user = $_SESSION['username'];
             <form action="loggout.php">
                 <input id="logoutbtn" type="submit" value="Logg ut" />
             </form>
-
-            <div id="event1"></div>
-
+            
+            <div id="events">
+                <img class="eventBilder" src="Bilder/Fiksefest.png">
+                <img class="eventBilder" src="Bilder/Sommerfest.png">
+                <img class="eventBilder" src="Bilder/Tedtalks.png">
+            </div>
+            
             <?php else: ?>
             <!--  Brukeren er ikke logget inn -->
 
