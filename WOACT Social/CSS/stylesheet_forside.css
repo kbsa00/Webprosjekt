@@ -369,7 +369,8 @@
     width: 1000px;
 }
 #kartoverskrift, #karttekst{
-    font-family:sans-serif;
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
 }
 /* footer css, don't change this */
 #wdalslogo{

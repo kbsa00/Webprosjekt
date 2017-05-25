@@ -90,15 +90,15 @@
     
     <div id="kartboks">
     <h2 id=kartoverskrift>
-        Finn ditt Campus!
+        Våre Campuser
     </h2>
     <p id="karttekst">
-        Alle våre Campus ligger i gåavstand fra hverandre for å gi deg flere muligheter som student.
+        En av gode tingene med å gå på Westerdals Oslo Act er at campusene våre ligger så sentralt i Oslo. Du vil ha alt fra matbutikk, bar, restauranter, gym og annet lignende i gåavstand fra våre Campuser. For hvert Campus har vi funnet de beste, billigste alternativene for våre studenter. For å finne disse stedene er det bare å klikke seg inn på Campuset du går på.
     </p>
     </div>
     
     <!-- the style portion of the map should not be changed, keep it as is -->
-    <div id="map" style="margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
+    <div id="map" style="border: 3px solid black; margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
     
     
     <?php require'footer.php';?>

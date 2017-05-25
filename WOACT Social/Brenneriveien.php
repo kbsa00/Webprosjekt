@@ -78,10 +78,11 @@
     
     <div id="kartboks">
     <h2 id=kartoverskrift>
-        Finn aktiviteter og spisesteder i nærområdet!
+        Utkikk etter noe å spise?
     </h2>
     <p id="karttekst">
-        Vi har funnet frem mange spisesteder, barer og aktiviteter i nærheten av våre Campus.
+        Er du på Campus Brenneriet og vet ikke hva nærområdet har å tilby eller bare sulten på noe godt? fortvil ikke, Vi har samlet alt fra Cafeer, kino, resturanter og fastFood. En av det beste tingene å studere på Campus Brenneriet er at du vil alltid ha uendelig alternativer.
+        Du vil finne alt du trenger i kartet.
     </p>
     <p id=karttekst2>
         Trykk på ikonene for å få mer informasjon.
@@ -89,7 +90,7 @@
     </div>
     
     <!-- the style portion of the map should not be changed, keep it as is -->
-    <div id="map" style="margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
+    <div id="map" style="border: 3px solid black; margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
     
     
     <?php require'footer.php';?>
@@ -102,7 +103,7 @@
       var locations = [
       ['Campus Brenneriet', 59.920054,10.7525318, 1,  
        {url:'../Bilder/Hexagon/Brenneriveien.png',
-        scaledSize : new google.maps.Size(40, 40)}],
+        scaledSize : new google.maps.Size(60, 60)}],
       ['Campus Fjerdingen', 59.916107,10.759980, 2, 
        {url:'../Bilder/Hexagon/Fjerdingen.png',
         scaledSize : new google.maps.Size(70, 70)} ],
@@ -117,9 +118,6 @@
         scaledSize : new google.maps.Size(40, 40)} ],
       ['Kuma', 59.9203146,10.7529034, 6,  
        {url:'../Bilder/GoogleMaps/cart.png',
-        scaledSize : new google.maps.Size(40, 40)}],
-      ['X-Ray Ungdomskulturhus', 59.9200676,10.7521184, 7,  
-       {url:'../Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Delhi Tandoori', 59.9196866,10.7513497, 8,  
        {url:'../Bilder/GoogleMaps/knife-fork.png',
