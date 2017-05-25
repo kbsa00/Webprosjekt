@@ -111,7 +111,7 @@ $user = $_SESSION['username'];
             <!-- change the picture and text to what you want -->
             <div id="tekstwrap2">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Westerdals er en skole hvor ting alltid skjer. Vi har vår egen festkomite som lager storfester hvor vi har forskjellig festtemaer som, Afterski, Halloween, Karneval og mange flere. Ikke minst har vi en Student Bar i Campus Fjerdingen hvor vi Studenter har muligheten til å komme å drikke alkohol til en billig studentpris. Westerdals er en stor skole med studenter, som studerer forskjellige studielinjer og du vil alltid ha muligheten til å bli kjent med nye mennesker og ikke minst få bygget ditt nettverk. For folk som har lyst til å drikke billig alkohol og liker å synge karaoke så har Westerdals Studentene mulighet til dette hos Syng Bar, som ligger bare noen få minutter fra skolen. Hos oss WOACT Social vil du ha muligheten til og aktivt være med å arrangere fester, og ikke minst få med deg de store festene festkomiteen arrangerer.
                 </p>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -134,12 +134,13 @@ $user = $_SESSION['username'];
             <?php if($user): ?>
             <!--  Brukeren er logget inn -->
 
-            <p>Du er logget inn som -> <?php echo $user ?> </p>
+            <p>Du er logget inn som ->
+                <?php echo $user ?> </p>
 
             <form action="loggout.php">
                 <input id="logoutbtn" type="submit" value="Logg ut" />
             </form>
-            
+
             <div id="event1"></div>
 
             <?php else: ?>
