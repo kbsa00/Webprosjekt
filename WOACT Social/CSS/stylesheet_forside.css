@@ -366,11 +366,18 @@
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 700px;
 }
-#kartoverskrift, #karttekst{
+#kartoverskrift{
+ font-family: 'Open sans', sans-serif;
+ text-align: center;
+
+ 
+}
+ #karttekst{
     font-family: 'Open sans', sans-serif;
     text-align: center;
+    font-size: 1.2em;
 }
 /* footer css, don't change this */
 #wdalslogo{

@@ -148,7 +148,9 @@
 
 
 /* css for bilde+tekstwrap2 */
-
+#overskrift1{
+    font-family: 'Open Sans', sans-serif;
+}
 #wrap2{
     margin-top: 70px;
     margin-left: auto;
@@ -167,7 +169,8 @@
 /* image width may be changed, but not to more than 500px */
 #bilde2{
     display: block;
-    margin-left: auto;
+    margin-left: 570px;
+    margin-top: -50px; 
     width: 400px;
     height: 300px;
     border: 1.5px solid black;
@@ -179,8 +182,13 @@
     margin-right: auto;
     width: 1000px;
 }
-#kartoverskrift, #karttekst, #karttekst2{
-    font-family:sans-serif;
+
+#kartoverskrift{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#karttekst, #karttekst2{
+     font-family: 'Open Sans', sans-serif;
 }
 
 /* footer css, don't change this */

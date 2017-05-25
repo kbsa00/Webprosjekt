@@ -146,15 +146,18 @@
 
 
 /* css for bilde+tekstwrap2 */
-
 #wrap2{
-    margin-top: 70px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
     height: 350px;
 }
 
+#overskrift2{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 166px;
+}
 #tekstwrap2{
     font-family: 'Open Sans', sans-serif;
     margin-top: -20px;

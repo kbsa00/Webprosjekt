@@ -180,7 +180,11 @@
     margin-right: auto;
     width: 1000px;
 }
-#kartoverskrift, #karttekst, #karttekst2{
+#kartoverskrift{
+    font-family: 'Opens Sans', sans-serif;
+}
+
+#karttekst, #karttekst2{
     font-family: 'Opens Sans', sans-serif;
 }
 
