@@ -146,7 +146,9 @@
 
 
 /* css for bilde+tekstwrap2 */
-
+#overskrift2{
+  font-family: 'Open Sans', sans-serif;   
+}
 #wrap2{
     margin-top: 70px;
     margin-left: auto;
