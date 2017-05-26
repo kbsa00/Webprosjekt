@@ -1,7 +1,7 @@
 <!-- header html code, don't mess with this -->
     <div id="header">
         
-    <a href="Forside.php">
+    <a href="index.php">
         <img id="logo" src="Bilder/Logo/wdals.png">
     </a>    
     <a href="Fjerdingen.php">

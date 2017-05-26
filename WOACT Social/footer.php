@@ -1,7 +1,7 @@
 <!-- footer -->
     <div id="footer">
         <div id="fwrap">
-            <a href="Forside.php">
+            <a href="index.php">
                 <img id="wdalslogo" src="Bilder/Logo/wdals-full-logo-hvit.png">
             </a>
             <a href="Omoss.php" class="foot-link">
