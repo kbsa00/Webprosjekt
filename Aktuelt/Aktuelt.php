@@ -133,7 +133,7 @@ $user = $_SESSION['username'];
             <!--  Brukeren er logget inn -->
 
             <p>Du er logget inn som ->
-                <?php echo $user ?> </p>
+                <?php echo $_SESSION['firstname'] ?> </p>
 
             <form action="loggout.php">
                 <input id="logoutbtn" type="submit" value="Logg ut" />

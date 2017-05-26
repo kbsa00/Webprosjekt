@@ -9,6 +9,8 @@ $db_host = "tek.westerdals.no";
 
 $username = $_POST['username'];
 $password = $_POST['password'];
+$firstname;
+$surname;
 
 // Sjekker at brukeren har skrevet inn et brukernavn  
 if(!$username) {
@@ -26,10 +28,12 @@ try {
     $connection = new PDO("mysql:host={$db_host};dbname={$db_name};port={$db_port};charset=utf8", $db_username, $db_password);
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $data = $connection->prepare("SELECT * FROM login_server WHERE username = :username AND password = :password");
+    $data = $connection->prepare("SELECT * FROM login_server LEFT JOIN login_id ON login_server.id = login_id.user_id WHERE username = :username AND password = :password");
     $data->execute( array(
         ':username' => $username,
-        ':password' => $password 
+        ':password' => $password,
+        'Fornavn' => $firstname,
+        'Etternavn' => $surname
         )
     );
 
@@ -39,6 +43,8 @@ try {
         // Sett brukeren i session
         session_start();
         $_SESSION['username']= $username;
+        $_SESSION['firstname'] = $firstname;
+        $_SESSION['surname'] = $surname;
         header( 'Location: Aktuelt.php' ) ;
 
     }
