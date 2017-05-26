@@ -20,31 +20,14 @@ $surname = $_SESSION['surname'];
 
     <link href="CSS/Aktuelt.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="Bilder/Logo/westerdals-logo.png">
 
 
 </head>
 
 <body>
 
-    <!-- header html code, don't mess with this -->
-    <div id="header">
-
-        <img id="logo" src="Bilder/wdals.png">
-        <img class="hexagons" id="hexagon" src="Bilder/17619338_10210736187733678_641845115_n.png">
-        <img class="hexagons" id="hexagon1" src="Bilder/17619338_10210736187733678_641845115_n.png">
-        <img class="hexagons" id="hexagon2" src="Bilder/17619338_10210736187733678_641845115_n.png">
-        <img class="hexagons" id="hexagon3" src="Bilder/17619338_10210736187733678_641845115_n.png">
-        <img class="hexagons" id="hexagon4" src="Bilder/17619338_10210736187733678_641845115_n.png">
-
-        <a href="https://www.facebook.com/westerdalsosloact/" target="_blank"><img id="fb" src="Bilder/fb.png"></a>
-        <a href="https://twitter.com/westerdalsact" target="_blank"><img id="tw" src="Bilder/twitter_icon-aa3c1f5542de27e4810b43c5af1c756f.png"></a>
-        <a href="https://www.instagram.com/westerdalsact/" target="_blank"><img id="ig" src="Bilder/circle-social-instagram-512.png"></a>
-        <a href=""><img id="sc" src="Bilder/SnapChat_Rounded_icon-icons.com_61574.png"></a>
-        <div class="menylinjer" id="menylinje1"></div>
-        <div class="menylinjer" id="menylinje2"></div>
-
-    </div>
-
+    <?php require'header.php';?>
 
     <!-- contents of the page -->
     <div id="container">
@@ -56,10 +39,10 @@ $surname = $_SESSION['surname'];
         <!-- Kopier her -->
 
         <div class="slidebilder">
-            <img class="mySlides" src="Bilder/Aktuelt1.jpeg" style="width:100%" height="100%">
-            <img class="mySlides" src="Bilder/Aktuelt2.jpeg" style="width:100%" height="100%">
-            <img class="mySlides" src="Bilder/Aktuelt3.jpg" style="width:100%" height="100%">
-            <img class="mySlides" src="Bilder/Aktuelt4.jpeg" style="width:100%" height="100%">
+            <img class="mySlides" src="Bilder/Aktuelt/Aktuelt1.jpeg" style="width:100%" height="100%">
+            <img class="mySlides" src="Bilder/Aktuelt/Aktuelt2.jpeg" style="width:100%" height="100%">
+            <img class="mySlides" src="Bilder/Aktuelt/Aktuelt3.jpg" style="width:100%" height="100%">
+            <img class="mySlides" src="Bilder/Aktuelt/Aktuelt4.jpeg" style="width:100%" height="100%">
 
         </div>
 
@@ -91,7 +74,7 @@ $surname = $_SESSION['surname'];
 
             <!-- change the picture and text to what you want -->
             <div id="bildewrap1">
-                <img id="bilde1" src="Bilder/Biliotek%20Aktuelt.jpeg">
+                <img id="bilde1" src="Bilder/Aktuelt/Biliotek%20Aktuelt.jpeg">
             </div>
             <div id="tekstwrap1">
                 <p> Westerdals er en skole hvor ting alltid skjer. Vi har vår egen festkomite som lager storfester hvor vi har forskjellig festtemaer som, Afterski, Halloween, Karneval og mange flere. Ikke minst har vi en Student Bar i Campus Fjerdingen hvor vi Studenter har muligheten til å komme å drikke alkohol til en billig studentpris. Westerdals er en stor skole med studenter, som studerer forskjellige studielinjer og du vil alltid ha muligheten til å bli kjent med nye mennesker og ikke minst få bygget ditt nettverk. For folk som har lyst til å drikke billig alkohol og liker å synge karaoke så har Westerdals Studentene mulighet til dette hos Syng Bar, som ligger bare noen få minutter fra skolen. Hos oss WOACT Social vil du ha muligheten til og aktivt være med å arrangere fester, og ikke minst få med deg de store festene festkomiteen arrangerer.
@@ -118,7 +101,7 @@ $surname = $_SESSION['surname'];
             </div>
 
             <div id="bilde6wrap2">
-                <img id="bilde2" src="Bilder/Kreativ%20aktuelt.jpg">
+                <img id="bilde2" src="Bilder/Aktuelt/Kreativ%20aktuelt.jpg">
             </div>
 
         </div>
@@ -141,9 +124,9 @@ $surname = $_SESSION['surname'];
             </form>
 
             <div id="events">
-                <img class="eventBilder" src="Bilder/Fiksefest.png">
-                <img class="eventBilder" src="Bilder/Sommerfest.png">
-                <img class="eventBilder" src="Bilder/Tedtalks.png">
+                <img class="eventBilder" src="Bilder/Aktuelt/Fiksefest.png">
+                <img class="eventBilder" src="Bilder/Aktuelt/Sommerfest.png">
+                <img class="eventBilder" src="Bilder/Aktuelt/Tedtalks.png">
             </div>
 
             <?php else: ?>
@@ -153,21 +136,14 @@ $surname = $_SESSION['surname'];
             <form action="login.php">
                 <input id="loginbtn" type="submit" value="Logg inn" />
             </form>
-            <img id="eventimg" src="Bilder/EventsBilde.jpg">
+            <img id="eventimg" src="Bilder/Aktuelt/EventsBilde.jpg">
 
 
             <?php endif;  ?>
         </div>
 
-
-
-        <!-- footer -->
-        <div id="footer">
-            <img id="wdalslogo" src="Bilder/Logo-Westerdals-hvit.png">
-            <p>Har du noen kule tips? Gjerne Kontakt oss:</p>
-            <li>Telefon: 22 05 75 50</li>
-            <li>Epost: post@westerdals.no</li>
-        </div>
+        <?php require'footer.php';?>
+        
     </div>
 
 

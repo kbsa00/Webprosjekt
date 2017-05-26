@@ -185,16 +185,19 @@ body {
 
 /* footer css, don't change this */
 
-#wdalslogo {
+#wdalslogo{
     margin-top: 10px;
-    margin-left: 100px;
     display: block;
     float: left;
     width: 250px;
 }
-
-#footer {
-    height: 150px;
+#fwrap{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer{
+    height: 100px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -203,6 +206,25 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
+
+/* CSS for links in footer */
+a.foot-link:link{
+    color: white;
+    text-decoration: none;
+}
+a.foot-link:visited{
+    color: white;
+    text-decoration: none;
+}
+a.foot-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+a.foot-link:active{
+    color: white;
+    text-decoration: none;
+}
+Sett av Sebastian Knutsen 17:30
 
 
 /*Bilder til slides */
