@@ -11,7 +11,7 @@
 
         <link href="CSS/stylesheet_ms.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
+        <link rel="shortcut icon" type="image/x-icon" href="Bilder/Logo/westerdals-logo.png">
 
     </head>
 
@@ -29,9 +29,9 @@
             <!-- Kopier her -->
 
             <div class="slidebilder">
-                <img class="mySlides" src="BILDER/MS/slide-img-1.jpg" style="width:100%">
-                <img class="mySlides" src="BILDER/MS/slide-img-2.jpg" style="width:100%">
-                <img class="mySlides" src="BILDER/MS/slide-img-3.jpg" style="width:100%">
+                <img class="mySlides" src="Bilder/MS/slide-img-1.jpg" style="width:100%">
+                <img class="mySlides" src="Bilder/MS/slide-img-2.jpg" style="width:100%">
+                <img class="mySlides" src="Bilder/MS/slide-img-3.jpg" style="width:100%">
             </div>
 
 
@@ -62,7 +62,7 @@
 
                 <!-- change the picture and text to what you want -->
                 <div id="bildewrap1">
-                    <img id="bilde1" src="BILDER/MS/img-1.jpg">
+                    <img id="bilde1" src="Bilder/MS/img-1.jpg">
                 </div>
                 <div id="tekstwrap1">
                     <p>Vi på Westerdals er stolte over å presentere dere for vår egen lille MakerSpace rom hvor studenter kan komme innom og jobbe med sine egne/gruppe prosjekter. WOACT Social arrangerer ofte MakerSpace eventer som, 3D-printing, Dronebygging og mange flere. Vi ønsker å stimulere til kompetanseutvikling, nettverksbygging, samt et større fokus på gjenbruk og modifisering av forbrukerprodukter ikke minst vil studentene ha mulighet til å bygge sitt eget nettverk. Det er kun 5-8 MakerSpace i Oslo og vår MakerSpace er åpen for alle. Man vil ikke trenge å være student for å oppleve vår flotte lille MakerSpace.</p>
@@ -86,7 +86,7 @@
                 </div>
 
                 <div id="bildewrap2">
-                    <img id="bilde2" src="BILDER/MS/img-2.jpg">
+                    <img id="bilde2" src="Bilder/MS/img-2.jpg">
                 </div>
 
             </div>

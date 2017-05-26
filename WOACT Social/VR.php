@@ -11,7 +11,7 @@
 
         <link href="CSS/stylesheet_vr.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
+        <link rel="shortcut icon" type="image/x-icon" href="Bilder/Logo/westerdals-logo.png">
 
     </head>
 
@@ -29,8 +29,8 @@
             <!-- Kopier her -->
 
             <div class="slidebilder">
-                <img class="mySlides" src="BILDER/VR/slide-img-1.jpg" style="width:100%">
-                <img class="mySlides" src="BILDER/VR/slide-img-2.jpg" style="width:100%">
+                <img class="mySlides" src="Bilder/VR/slide-img-1.jpg" style="width:100%">
+                <img class="mySlides" src="Bilder/VR/slide-img-2.jpg" style="width:100%">
             </div>
 
 
@@ -61,7 +61,7 @@
 
                 <!-- change the picture and text to what you want -->
                 <div id="bildewrap1">
-                    <img id="bilde1" src="BILDER/VR/img-1.jpg">
+                    <img id="bilde1" src="Bilder/VR/img-1.jpg">
                 </div>
                 <div id="tekstwrap1">
                     <p>Som student hos Westerdals Oslo ACT, vil du ha muligheten til å spille på optimaliserte gaming-datamaskiner på Campus Brenneriet. Her kan du bli kjent med nye mennesker fra forskjellige linjer, og ikke minst, få muligheten til å bygge ditt eget nettverk blant likesinnede. Campus Brenneriet har også populære VR-Headset, som Oculus Rift og HTC Vive. Vi har dedikerte rom til gaming og spillutvikling, og i tillegg til dette, et eget "green screen"-rom.</p>

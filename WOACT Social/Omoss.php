@@ -11,7 +11,7 @@
     
 <link href="CSS/stylesheet_omoss.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
+<link rel="shortcut icon" type="image/x-icon" href="Bilder/Logo/westerdals-logo.png">
     
 <!-- don't forget to change to your specific source here -->
 <script src="http://maps.google.com/maps/api/js?sensor=false" 
@@ -36,11 +36,11 @@
     
         <!-- change the picture and text to what you want -->
         <div id="bildewrap">
-            <img id="bilde1" src="BILDER/Contributors/img-1.jpg">
-            <img id="bilde2" src="BILDER/Contributors/img-2.jpg">
-            <img id="bilde3" src="BILDER/Contributors/img-3.jpg">
-            <img id="bilde4" src="BILDER/Contributors/img-4.jpg">
-            <img id="bilde5" src="BILDER/Contributors/img-5.jpg">
+            <img id="bilde1" src="Bilder/Contributors/img-1.jpg">
+            <img id="bilde2" src="Bilder/Contributors/img-2.jpg">
+            <img id="bilde3" src="Bilder/Contributors/img-3.jpg">
+            <img id="bilde4" src="Bilder/Contributors/img-4.jpg">
+            <img id="bilde5" src="Bilder/Contributors/img-5.jpg">
         </div>
         <div id="tekstwrap">
             <p id="tekst1">

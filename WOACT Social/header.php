@@ -6,27 +6,27 @@
     </a>    
     <a href="Fjerdingen.php">
         <img class="hexagons" id="hexagon5" 
-        src="BILDER/Hexagon/Fjerdingen.png">
+        src="Bilder/Hexagon/Fjerdingen.png">
     </a>
     <a href="Vulkan.php">
         <img class="hexagons" id="hexagon" 
-        src="BILDER/Hexagon/Vulkan.png">
+        src="Bilder/Hexagon/Vulkan.png">
     </a>
     <a href="Brenneriveien.php">
         <img class="hexagons" id="hexagon1"
-        src="BILDER/Hexagon/Brenneriveien.png">
+        src="Bilder/Hexagon/Brenneriveien.png">
     </a>
     <a href="Aktuelt.php">
         <img class="hexagons" id="hexagon2" 
-        src="BILDER/Hexagon/Aktuelt.png">
+        src="Bilder/Hexagon/Aktuelt.png">
     </a>
     <a href="VR.php">
         <img class="hexagons" id="hexagon3"
-        src="BILDER/Hexagon/VirtualReality.png">
+        src="Bilder/Hexagon/VirtualReality.png">
     </a>
     <a href="MS.php">
         <img class="hexagons" id="hexagon4" 
-        src="BILDER/Hexagon/Makerspace.png">
+        src="Bilder/Hexagon/Makerspace.png">
     </a>
     
         

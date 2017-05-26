@@ -11,7 +11,7 @@
     
 <link href="CSS/stylesheet_fjerdingen.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
+<link rel="shortcut icon" type="image/x-icon" href="Bilder/Logo/westerdals-logo.png">
     
 <!-- don't forget to change to your specific source here -->
 <script src="http://maps.google.com/maps/api/js?sensor=false" 
@@ -65,7 +65,7 @@
         </div>
         
         <div id="bildewrap2">
-            <img id="bilde2" src="Bilder/Fjerdingen/img-2.jpeg">
+            <img id="bilde2" src="Bilder/Fjerdingen/img-2.jpg">
         </div>
         
     </div>

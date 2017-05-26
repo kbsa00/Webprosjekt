@@ -11,7 +11,7 @@
     
 <link href="CSS/stylesheet_vulkan.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
+<link rel="shortcut icon" type="image/x-icon" href="Bilder/Logo/westerdals-logo.png">
     
 <!-- don't forget to change to your specific source here -->
 <script src="http://maps.google.com/maps/api/js?sensor=false" 
@@ -36,7 +36,7 @@
     
         <!-- change the picture and text to what you want -->
         <div id="bildewrap1">
-            <img id="bilde1" src="BILDER/Vulkan/img-1.jpg">
+            <img id="bilde1" src="Bilder/Vulkan/img-1.jpg">
         </div>
         <div id="tekstwrap1">
             <p>
@@ -70,7 +70,7 @@
         </div>
         
         <div id="bildewrap2">
-            <img id="bilde2" src="BILDER/Vulkan/img-2.jpg">
+            <img id="bilde2" src="Bilder/Vulkan/img-2.jpg">
         </div>
         
         
