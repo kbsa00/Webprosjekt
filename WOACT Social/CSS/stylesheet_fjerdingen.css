@@ -180,12 +180,10 @@
     margin-right: auto;
     width: 1000px;
 }
-#kartoverskrift{
-    font-family: 'Opens Sans', sans-serif;
-}
 
-#karttekst, #karttekst2{
-    font-family: 'Opens Sans', sans-serif;
+
+#kartoverskrift, #karttekst, #karttekst2{
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* footer css, don't change this */
