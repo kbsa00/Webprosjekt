@@ -44,19 +44,19 @@
         </div>
         <div id="tekstwrap">
             <p id="tekst1">
-                Navn: Fulin<br>Rolle: meme
+                Navn: Fulin<br>Rolle: Design og Webutvikling<br>Bakgrunn: Java, HTML/CSS, C#.<br>Studielinje: Programmering 
             </p>
             <p id="tekst2">
-                Navn: Tobias<br>Rolle: meme
+                Navn: Tobias<br>Rolle: Webutvikling<br>Bakgrunn: Java, HTML/CSS.<br>Studielinje: E-Business  
             </p>
             <p id="tekst3">
-                Navn: Khalid<br>Rolle: meme
+                Navn: Khalid<br>Rolle: Hovedansvar og Webutvikling<br>Bakgrunn: Java, HTML/CSS, C# og JavaScript<br>Studielinje: Intelligente Systemer
             </p>
             <p id="tekst4">
-                Navn: Aleksander<br>Rolle: meme
+                Navn: Aleksander<br>Rolle: Desing og Datbase funksjonalitet<br>Bakgrunn: Java, HTML/CSS, JavaScript og PHP<br>Studielinje: Interaktivt Design
             </p>
             <p id="tekst5">
-                Navn: Sebastian<br>Rolle: meme
+                Navn: Sebastian<br>Rolle: Webutvikling<br>Bakgrunn: Java, HTML/CSS, JavaScript, og C#<br>Studielinje: Programmering
             </p>
         </div>
         
