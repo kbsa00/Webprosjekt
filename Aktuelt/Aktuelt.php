@@ -2,6 +2,8 @@
 
 session_start(); 
 $user = $_SESSION['username']; 
+$firstname = $_SESSION['firstname'];
+$surname = $_SESSION['surname'];
 
 ?>
 <!DOCTYPE html>
@@ -133,7 +135,7 @@ $user = $_SESSION['username'];
             <!--  Brukeren er logget inn -->
 
             <p>Du er logget inn som ->
-                <?php echo $_SESSION['firstname'] ?> </p>
+                <?php echo $user ?> </p>
 
             <form action="loggout.php">
                 <input id="logoutbtn" type="submit" value="Logg ut" />
