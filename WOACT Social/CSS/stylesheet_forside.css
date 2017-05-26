@@ -176,7 +176,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('Bilder/Hexagon/Fjerdingen.png'); 
+    background-image: url("Hexagon/Fjerdingen.png");
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -210,7 +210,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('Bilder/Hexagon/Vulkan.png');
+    background-image: url("Hexagon/Vulkan.png");
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -243,7 +243,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('Bilder/Hexagon/Brenneriveien.png'); 
+    background-image: url("Hexagon/Brenneriveien.png"); 
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -275,7 +275,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('Bilder/Hexagon/Aktuelt.png'); 
+    background-image: url("Hexagon/Aktuelt.png");
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -307,7 +307,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('Bilder/Hexagon/Makerspace.png'); 
+    background-image: url("Hexagon/Makerspace.png");
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -338,7 +338,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('Bilder/Hexagon/VirtualReality.png'); 
+    background-image: url("Hexagon/VirtualReality.png");
     background-size: cover; 
     padding: 20px;
     position: absolute;
