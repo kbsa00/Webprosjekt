@@ -168,7 +168,7 @@
     float: right;
 }
 
-.fjerd{
+#fjerd{
     height: 170px;
     width: 200px;
     display: flex;
@@ -185,13 +185,13 @@
     opacity: 2;
 }
 
- .fjerd:hover
+#fjerd:hover
 {
     opacity: 0.6;
     box-shadow: 20px;
 }
 
-.fjerd:hover:after
+#fjerd:hover:after
 {
     content: attr(data-hover); 
     font-size: 30px; 
@@ -202,7 +202,7 @@
 }
 
     
-.vulk{
+#vulk{
     height: 170px;
     width: 200px;
     display: flex;
@@ -219,12 +219,12 @@
     opacity: 2;
 }
 
- .vulk:hover
+ #vulk:hover
 {
     opacity: 0.6;
 }
 
-.vulk:hover:after
+#vulk:hover:after
 {
     content: attr(data-hover); 
     font-size: 30px; 
@@ -235,7 +235,7 @@
     
 }
 
-.bren{
+#bren{
     height: 170px;
     width: 200px;
     display: flex;
@@ -252,12 +252,12 @@
     opacity: 2;
 }
 
- .bren:hover
+ #bren:hover
 {
     opacity: 0.6;
 }
 
-.bren:hover:after
+#bren:hover:after
 {
     content: attr(data-hover); 
     font-size: 30px; 
@@ -267,7 +267,7 @@
     font-family:sans-serif;
 }
 
-.aktuelt{
+#aktuelt{
     height: 170px;
     width: 200px;
     display: flex;
@@ -284,12 +284,12 @@
     opacity: 2;
 }
 
- .aktuelt:hover
+ #aktuelt:hover
 {
     opacity: 0.6;
 }
 
-.aktuelt:hover:after
+#aktuelt:hover:after
 {
     content: attr(data-hover); 
     font-size: 30px; 
@@ -299,7 +299,7 @@
     font-family:sans-serif;
 }
 
-.makerspace{
+#makerspace{
     height: 170px;
     width: 200px;
     display: flex;
@@ -316,12 +316,12 @@
     opacity: 2;
 }
 
- .makerspace:hover
+ #makerspace:hover
 {
     opacity: 0.6;
 }
 
-.makerspace:hover:after
+#makerspace:hover:after
 {
     content: attr(data-hover); 
     font-size: 30px; 
@@ -330,7 +330,7 @@
     padding: 20px;
     font-family:sans-serif;
 }
-.VR{
+#VR{
     height: 170px;
     width: 200px;
     display: flex;
@@ -347,12 +347,12 @@
     opacity: 2;
 }
 
- .VR:hover
+ #VR:hover
 {
     opacity: 0.6;
 }
 
-.VR:hover:after
+#VR:hover:after
 {
     content: attr(data-hover); 
     font-size: 30px; 
