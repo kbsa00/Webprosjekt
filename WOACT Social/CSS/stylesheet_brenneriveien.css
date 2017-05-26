@@ -216,5 +216,22 @@
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
+/* CSS for links in footer */
+a.foot-link:link{
+    color: white;
+    text-decoration: none;
+}
+a.foot-link:visited{
+    color: white;
+    text-decoration: none;
+}
+a.foot-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+a.foot-link:active{
+    color: white;
+    text-decoration: none;
+}
 
 /* end of template CSS */

@@ -2,10 +2,13 @@
     <div id="footer">
         <div id="fwrap">
             <a href="Forside.php">
-                <img id="wdalslogo" src="../BILDER/Logo/wdals-full-logo-hvit.png">
+                <img id="wdalslogo" src="BILDER/Logo/wdals-full-logo-hvit.png">
             </a>
-            <p>Har du noen kule tips? Gjerne Kontakt oss:</p>
-            <li>Telefon: 22 05 75 50</li>
-            <li>Epost: post@westerdals.no</li>
+            <a href="Omoss.php">
+                <li>Om oss</li>
+            </a>
+            <a href="login.php">
+                <li>Logg inn</li>
+            </a>
         </div>
     </div>

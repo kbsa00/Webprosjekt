@@ -9,9 +9,9 @@
 
 <title>Campus Brenneriet</title>
     
-<link href="../CSS/stylesheet_brenneriveien.css" rel="stylesheet" type="text/css">
+<link href="CSS/stylesheet_brenneriveien.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="../BILDER/Logo/westerdals-logo.png">
+<link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
     
 <!-- don't forget to change to your specific source here -->
 <script src="http://maps.google.com/maps/api/js?sensor=false" 
@@ -37,7 +37,7 @@
     
         <!-- change the picture and text to what you want -->
         <div id="bildewrap1">
-            <img id="bilde1" src="../BILDER/Brenneriveien/img-1.jpg">
+            <img id="bilde1" src="BILDER/Brenneriveien/img-1.jpg">
         </div>
         <div id="tekstwrap1">
             <p>
@@ -68,7 +68,7 @@
         </div>
         
         <div id="bildewrap2">
-            <img id="bilde2" src="../BILDER/Brenneriveien/img-2.jpg">
+            <img id="bilde2" src="BILDER/Brenneriveien/img-2.jpg">
         </div>
         
     </div>
@@ -102,46 +102,46 @@
 //Her skriver du inn navn,longitude og latitude, bilder i URL.  
       var locations = [
       ['Campus Brenneriet', 59.920054,10.7525318, 1,  
-       {url:'../Bilder/Hexagon/Brenneriveien.png',
+       {url:'Bilder/Hexagon/Brenneriveien.png',
         scaledSize : new google.maps.Size(60, 60)}],
       ['Campus Fjerdingen', 59.916107,10.759980, 2, 
-       {url:'../Bilder/Hexagon/Fjerdingen.png',
+       {url:'Bilder/Hexagon/Fjerdingen.png',
         scaledSize : new google.maps.Size(70, 70)} ],
       ['Campus Vulkan', 59.923353, 10.75236, 3,  
-       {url:'../Bilder/Hexagon/Vulkan.png',
+       {url:'Bilder/Hexagon/Vulkan.png',
         scaledSize : new google.maps.Size(70, 70)}],
       ['Blå', 59.9201164,10.7530501, 4, 
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)} ],
       ['britt powers', 59.9204042,10.7526689, 5, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
       ['Kuma', 59.9203146,10.7529034, 6,  
-       {url:'../Bilder/GoogleMaps/cart.png',
+       {url:'Bilder/GoogleMaps/cart.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Delhi Tandoori', 59.9196866,10.7513497, 8,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Taxi Take Away', 59.9194769,10.7512829, 9,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Today Grill & Pizza', 59.9193306,10.7509687, 10,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Gourmet Pizza Grill', 59.9193913,10.7506003, 11,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Orlandos Pub', 59.9194409,10.7502574, 12,  
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Filippa Sushi', 59.9195072,10.7496785, 13,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Grusomhetens Teater', 59.9191488,10.7520666, 14,  
-       {url:'../Bilder/GoogleMaps/kino.png',
+       {url:'Bilder/GoogleMaps/kino.png',
         scaledSize : new google.maps.Size(40, 40)}],
       ['Pjoltergeist', 59.9196556,10.74866, 15,  
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)}],  
     ];
       //Map Størrelse, ZOOM eller center: Hvor du vil sirka kartet ska spawne når du åpner siden.

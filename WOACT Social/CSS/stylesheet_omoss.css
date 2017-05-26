@@ -107,83 +107,39 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#tekstwrap1
-{
-    font-family: 'Open Sans', sans-serif;
-}
+/* css for bilde+tekstwrap1 */
 
-#wrap1{
+#wrap{
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
-    height: 400px;
-    margin-top: 70px;
+    height: 500px;
 }
 
-#bildewrap1{
-    width: 500px;
-    float: left;
+#bildewrap{
+    width: 1000px;
 }
 
 /* image width may be changed, but not to more than 500px */
-#bilde1{
-    display: block;
-    margin-right: auto;
-    width: 470px;
+#bilde1, #bilde2, #bilde3, #bilde4, #bilde5{
+    display: inline-block;
+    height: 200px;
+    width: 170px;
+    padding: 11px;
     border: 1.5px solid black;
 }
 
-/* CSS code for section lines */
-#forsidelinje1, #forsidelinje2{
-    margin-top: 70px;
-    display: block;
-    background-color: black;
-    height: 1px;
+#tekstwrap{
+    height: 270px;
     width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* css for bilde+tekstwrap2 */
-
-#wrap2{
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-    height: 400px;
-}
-
-#wrap2overskrift{
- font-family: 'Open Sans', sans-serif;   
-}
-
-#tekstwrap2{
-    width: 500px;
-    float: left;
     font-family: 'Open Sans', sans-serif;
 }
 
-/* image width may be changed, but not to more than 500px */
-#bilde2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 490px;
-    border: 1.5px solid black;
-}
-
-#kartboks{
-    margin-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-}
-
-
-#kartoverskrift, #karttekst, #karttekst2{
-    font-family: 'Open Sans', sans-serif;
+#tekst1, #tekst2, #tekst3, #tekst4, #tekst5{
+    display: inline-block;
+    width: 170px;
+    padding: 13px;
 }
 
 /* footer css, don't change this */
@@ -200,6 +156,7 @@
     margin-right: auto;
 }
 #footer{
+    margin-top: 20px;
     height: 100px;
     width: 100%;
     margin-left: auto;

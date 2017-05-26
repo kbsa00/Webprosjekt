@@ -9,9 +9,9 @@
 
 <title>WOACT Social</title>
     
-<link href="../CSS/stylesheet_forside.css" rel="stylesheet" type="text/css">
+<link href="CSS/stylesheet_forside.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="../BILDER/Logo/westerdals-logo.png">
+<link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
 
 <!-- don't forget to change to your specific source here -->
 <script src="http://maps.google.com/maps/api/js?sensor=false" 
@@ -55,15 +55,15 @@
     
         <div id="venstrewrap">
         
-            <a href="Fjerdingen.html">
+            <a href="Fjerdingen.php">
                 <div class="fjerd" data-hover = FJERDINGEN> </div>
             </a>
                 
-            <a href="Vulkan.html">
+            <a href="Vulkan.php">
                 <div class="vulk" data-hover = VULKAN></div>
             </a>
                 
-            <a href="Brenneriveien.html">
+            <a href="Brenneriveien.php">
                 <div class="bren" data-hover = BRENNERIET></div>
             </a>
         
@@ -71,13 +71,13 @@
         
         <div id="hoyrewrap">
     
-            <a href="Aktuelt.html">
+            <a href="Aktuelt.php">
                 <div class="aktuelt" data-hover = AKTUELT></div>
             </a>
-                
-            <div class="makerspace" data-hover = MAKERSPACE></div>
-        
-            <a href="VR.html">
+            <a href="MS.php">
+                <div class="makerspace" data-hover = MAKERSPACE></div>
+            </a>
+            <a href="VR.php">
                 <div class="VR" data-hover = VR ></div> 
             </a>
         
@@ -110,13 +110,13 @@
 //Her skriver du inn navn,longitude og latitude, bilder i URL.  
       var locations = [
       ['Campus Fjerdingen', 59.916107,10.759980, 4, 
-       {url:'../Bilder/Hexagon/Fjerdingen.png',
+       {url:'Bilder/Hexagon/Fjerdingen.png',
         scaledSize : new google.maps.Size(70, 60)} ],
       ['Campus Vulkan', 59.923353, 10.75236, 5,  
-       {url:'../Bilder/Hexagon/Vulkan.png',
+       {url:'Bilder/Hexagon/Vulkan.png',
         scaledSize : new google.maps.Size(70, 60)}],
       ['Campus Brenneriet', 59.920298, 10.752712, 3,  
-       {url:'../Bilder/Hexagon/Brenneriveien.png',
+       {url:'Bilder/Hexagon/Brenneriveien.png',
         scaledSize : new google.maps.Size(70, 60)}]        
       
     ];

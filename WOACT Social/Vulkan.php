@@ -9,9 +9,9 @@
 
 <title>Campus Vulkan</title>
     
-<link href="../CSS/stylesheet_vulkan.css" rel="stylesheet" type="text/css">
+<link href="CSS/stylesheet_vulkan.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="../BILDER/Logo/westerdals-logo.png">
+<link rel="shortcut icon" type="image/x-icon" href="BILDER/Logo/westerdals-logo.png">
     
 <!-- don't forget to change to your specific source here -->
 <script src="http://maps.google.com/maps/api/js?sensor=false" 
@@ -36,14 +36,14 @@
     
         <!-- change the picture and text to what you want -->
         <div id="bildewrap1">
-            <img id="bilde1" src="../BILDER/Vulkan/img-1.jpg">
+            <img id="bilde1" src="BILDER/Vulkan/img-1.jpg">
         </div>
         <div id="tekstwrap1">
             <p>
                 På Campus Vulkan kan du slippe kreativiteten løs. Her møter du elever fra både kunst, film, TV, spill og skuespillerlinjer. Nærmiljøet myldrer av liv, kaféer, restauranter og aktivitet, blant annet i Kubaparken, som ligger helt inntil skolen. Campus Vulkan ligger helt øverst i Vulkanpromenaden, inntil den vakre Akerselven. Følger du elven nedover, finner du shopping, mat og kulturliv. Mathalleln og Vulkan Arena er populære møteplasser blant elever ved skolen. Se kartet nederst på siden for å finne flere aktuelle aktiviteter og tilbud i umiddelbar nærhet. Velkommen til Vulkan!
             </p>
             <p>
-                Som student ved Westerdals, kan du oppdage, og være med på arrangementer ved Campus Vulkan nesten hver uke. Vil du bli med på spillkveld, bokklubb, utstilling, eller bare ta en halvliter i baren? Klikk <a href=../HTML/Aktuelt.html><u>HER</u></a> for å se hva som skjer på Vulkan!
+                Som student ved Westerdals, kan du oppdage, og være med på arrangementer ved Campus Vulkan nesten hver uke. Vil du bli med på spillkveld, bokklubb, utstilling, eller bare ta en halvliter i baren? Klikk <a href=Aktuelt.php><u>her</u></a> for å se hva som skjer på Vulkan!
             </p>
         </div>
         
@@ -70,7 +70,7 @@
         </div>
         
         <div id="bildewrap2">
-            <img id="bilde2" src="../BILDER/Vulkan/img-2.jpg">
+            <img id="bilde2" src="BILDER/Vulkan/img-2.jpg">
         </div>
         
         
@@ -104,81 +104,81 @@
 //Her skriver du inn navn,longitude og latitude, bilder i URL.  
       var locations = [
       ['Campus Fjerdingen', 59.916107,10.759980, 4, 
-       {url:'../Bilder/Hexagon/Fjerdingen.png',
+       {url:'Bilder/Hexagon/Fjerdingen.png',
         scaledSize : new google.maps.Size(70, 70)} ],
       ['Campus Vulkan', 59.923353, 10.75236, 5,  
-       {url:'../Bilder/Hexagon/Vulkan.png',
+       {url:'Bilder/Hexagon/Vulkan.png',
         scaledSize : new google.maps.Size(70, 70)}],
       ['Campus Brenneriet', 59.920298, 10.752712, 3,  
-       {url:'../Bilder/Hexagon/Brenneriveien.png',
+       {url:'Bilder/Hexagon/Brenneriveien.png',
         scaledSize : new google.maps.Size(70, 70)}],
           //Puber ved Vulkan
     ['Vulkan Pub', 59.922466,10.751214, 4, 
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Bar Vulkan', 59.922903,10.752408, 4, 
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Hendrix Ibsen', 59.921941,10.751380, 4, 
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Søvnløs Bar', 59.921740,10.751605, 4, 
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Fyrhuset Kuba', 59.923606,10.751839, 4, 
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Smelteverket', 59.922374,10.752352, 4, 
-       {url:'../Bilder/GoogleMaps/cocktail.png',
+       {url:'Bilder/GoogleMaps/cocktail.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           
           //Trening ved Vulkan
           ['SiO Athletica', 59.923145,10.752196, 4, 
-       {url:'../Bilder/GoogleMaps/dumbbell.png',
+       {url:'Bilder/GoogleMaps/dumbbell.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Vulkan Klatresenter', 59.922945,10.751958, 4, 
-       {url:'../Bilder/GoogleMaps/dumbbell.png',
+       {url:'Bilder/GoogleMaps/dumbbell.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           
           //Mat ved Vulkan
           ['La Crêpe', 59.922576,10.751644, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Lucky Bird', 59.922602,10.752003, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Restaurant Kontrast', 59.922468,10.751032, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Handwerk', 59.922396,10.750694, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Ristorante Ferro', 59.922291,10.751225, 4, 
-       {url:'../Bilder/GoogleMaps/pizza.png',
+       {url:'Bilder/GoogleMaps/pizza.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Døgnvill Burger Vulkan', 59.921710,10.751665, 4, 
-       {url:'../Bilder/GoogleMaps/food.png',
+       {url:'Bilder/GoogleMaps/food.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['PARADIS Gelateria', 59.922014,10.752086, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Tacos El Brujo', 59.922069,10.752223, 4, 
-       {url:'../Bilder/GoogleMaps/food.png',
+       {url:'Bilder/GoogleMaps/food.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Noodles Vulkan', 59.922028,19.752331, 4, 
-       {url:'../Bilder/GoogleMaps/food.png',
+       {url:'Bilder/GoogleMaps/food.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Atelier Asian Tapas', 59.922232,10.751923, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Mathallen Oslo', 59.922220,10.752003, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Hitchhiker', 59.922279,10.751998, 4, 
-       {url:'../Bilder/GoogleMaps/food.png',
+       {url:'Bilder/GoogleMaps/food.png',
         scaledSize : new google.maps.Size(40, 40)} ],
           ['Champagneria Bodega', 59.922442,10.752288, 4, 
-       {url:'../Bilder/GoogleMaps/knife-fork.png',
+       {url:'Bilder/GoogleMaps/knife-fork.png',
         scaledSize : new google.maps.Size(40, 40)} ]
     ];
       //Map Størrelse, ZOOM eller center: Hvor du vil sirka kartet ska spawne når du åpner siden.

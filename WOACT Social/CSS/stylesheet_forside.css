@@ -176,7 +176,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url(../BILDER/Hexagon/Fjerdingen%20hexagon.png); 
+    background-image: url(BILDER/Hexagon/Fjerdingen.png); 
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -210,7 +210,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url(../BILDER/Hexagon/Vulkan.png); 
+    background-image: url(BILDER/Hexagon/Vulkan.png); 
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -243,7 +243,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url(../BILDER/Hexagon/Brenneriveien%20hexagon.png); 
+    background-image: url(BILDER/Hexagon/Brenneriveien.png); 
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -275,7 +275,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url(../BILDER/Hexagon/Aktuelt.png); 
+    background-image: url(BILDER/Hexagon/Aktuelt.png); 
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -307,7 +307,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url(../BILDER/Hexagon/Makerspace.png); 
+    background-image: url(BILDER/Hexagon/Makerspace.png); 
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -338,7 +338,7 @@
     justify-content: center;
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url(../BILDER/Hexagon/VirtualReality.png); 
+    background-image: url(BILDER/Hexagon/VirtualReality.png); 
     background-size: cover; 
     padding: 20px;
     position: absolute;
@@ -366,18 +366,11 @@
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
+    width: 1000px;
 }
-#kartoverskrift{
- font-family: 'Open sans', sans-serif;
- text-align: center;
-
- 
-}
- #karttekst{
+#kartoverskrift, #karttekst{
     font-family: 'Open sans', sans-serif;
     text-align: center;
-    font-size: 1.2em;
 }
 /* footer css, don't change this */
 #wdalslogo{
@@ -387,6 +380,7 @@
     width: 250px;
 }
 #fwrap{
+    margin-top: 30px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -400,6 +394,24 @@
     text-align: right;
     font-family: 'Open Sans', sans-serif;
     color: white;
+}
+
+/* CSS for links in footer */
+a.foot-link:link{
+    color: white;
+    text-decoration: none;
+}
+a.foot-link:visited{
+    color: white;
+    text-decoration: none;
+}
+a.foot-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+a.foot-link:active{
+    color: white;
+    text-decoration: none;
 }
 
 /* end of template CSS */
