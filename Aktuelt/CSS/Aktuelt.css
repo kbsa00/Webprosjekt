@@ -211,7 +211,7 @@ body {
     position: relative;
     top: 0%;
     margin: auto;
-    width: 60%;
+    width: 1000px;
     height: 620px;
     border: 3px solid black;
     overflow: hidden;
@@ -262,6 +262,13 @@ body {
     position: relative;
     border: 2px solid black;
     margin: 20px;
+}
+
+#eventimg {
+    position: relative;
+    border: 2px solid black;
+    margin: 20px;
+    height: 70%;
 }
 
 

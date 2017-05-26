@@ -1,4 +1,7 @@
 <?php
+// Sett brukeren i session
+session_start();
+
 
 $db_port = 3306;
 $db_username = "hauale16_anwarz";
@@ -27,24 +30,17 @@ try {
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $data = $connection->prepare("SELECT * FROM login_server LEFT JOIN login_id ON login_server.id = login_id.user_id WHERE username = '$username' AND password = '$password'");
-    $data->execute( array(
-        'username' => $username,
-        'password' => $password,
-        'Fornavn' => $firstname,
-        'Etternavn' => $surname
-        )
-    );
-
-    $count = $data->rowCount();
-
-    if( $count === 1) {
-        // Sett brukeren i session
-        session_start();
-        $_SESSION['username']= $username;
-        $_SESSION['firstname'] = $firstname;
-        $_SESSION['surname'] = $surname;
-        header( 'Location: Aktuelt.php' ) ;
-
+    
+    
+    $data -> execute();
+    
+    if($row = $data -> fetch(PDO::FETCH_ASSOC)) {
+        $user = $row;
+        $_SESSION['username']= $user['username'];
+        $_SESSION['firstname'] = $user['Fornavn'];        
+        $_SESSION['surname'] = $user['Etternavn'];
+        
+        header( 'Location: Aktuelt.php');
     }
 
     else {

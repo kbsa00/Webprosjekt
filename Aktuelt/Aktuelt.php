@@ -1,7 +1,7 @@
 <?php 
 
 session_start(); 
-$user = $_SESSION['username']; 
+$username = $_SESSION['username']; 
 $firstname = $_SESSION['firstname'];
 $surname = $_SESSION['surname'];
 
@@ -111,14 +111,13 @@ $surname = $_SESSION['surname'];
             <!-- change the picture and text to what you want -->
             <div id="tekstwrap2">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Her på Westerdals Oslo Act så er det alltid noe som skjer. Hver uke har vi arrangementer laget av studenter for studenter. Studentsamfunnet arrangerer fester og konkurranser for studenter. Vi på WOACT Social har har gjort det lettere for studenter å få med seg de alle kommende eventer som foregår på alle Campuser.Alt fra Workshops til konkurranser og store fester. WOACT Social prøver aktivt å få lage nye arrangementer og aktiviteter for dere. Vil du ha muligheten til å få med deg alt som skjer? Logger deg inn under siden!
+
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+
             </div>
 
-            <div id="bildewrap2">
+            <div id="bilde6wrap2">
                 <img id="bilde2" src="Bilder/Kreativ%20aktuelt.jpg">
             </div>
 
@@ -131,30 +130,31 @@ $surname = $_SESSION['surname'];
             <h2>Hva skjer?</h2>
 
 
-            <?php if($user): ?>
+            <?php if($username): ?>
             <!--  Brukeren er logget inn -->
 
             <p>Du er logget inn som ->
-                <?php echo $user ?> </p>
+                <?php echo $firstname . " " . $surname . " (" .  $username . ") " ?> </p>
 
             <form action="loggout.php">
                 <input id="logoutbtn" type="submit" value="Logg ut" />
             </form>
-            
+
             <div id="events">
                 <img class="eventBilder" src="Bilder/Fiksefest.png">
                 <img class="eventBilder" src="Bilder/Sommerfest.png">
                 <img class="eventBilder" src="Bilder/Tedtalks.png">
             </div>
-            
+
             <?php else: ?>
             <!--  Brukeren er ikke logget inn -->
 
             <h3>Her kan du logge inn for å se kommende eventer rundt campus</h3>
-
             <form action="login.php">
                 <input id="loginbtn" type="submit" value="Logg inn" />
             </form>
+            <img id="eventimg" src="Bilder/EventsBilde.jpg">
+
 
             <?php endif;  ?>
         </div>
