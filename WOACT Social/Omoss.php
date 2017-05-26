@@ -36,27 +36,27 @@
     
         <!-- change the picture and text to what you want -->
         <div id="bildewrap">
-            <img id="bilde1" src="BILDER/Brenneriveien/img-1.jpg">
-            <img id="bilde2" src="BILDER/Brenneriveien/img-1.jpg">
-            <img id="bilde3" src="BILDER/Brenneriveien/img-1.jpg">
-            <img id="bilde4" src="BILDER/Brenneriveien/img-1.jpg">
-            <img id="bilde5" src="BILDER/Brenneriveien/img-1.jpg">
+            <img id="bilde1" src="BILDER/Contributors/img-1.jpg">
+            <img id="bilde2" src="BILDER/Contributors/img-2.jpg">
+            <img id="bilde3" src="BILDER/Contributors/img-3.jpg">
+            <img id="bilde4" src="BILDER/Contributors/img-4.jpg">
+            <img id="bilde5" src="BILDER/Contributors/img-5.jpg">
         </div>
         <div id="tekstwrap">
             <p id="tekst1">
-                lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes.
+                Navn: Fulin<br>Rolle: meme
             </p>
             <p id="tekst2">
-                lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes.
+                Navn: Tobias<br>Rolle: meme
             </p>
             <p id="tekst3">
-                lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes. 
+                Navn: Khalid<br>Rolle: meme
             </p>
             <p id="tekst4">
-                lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes.
+                Navn: Aleksander<br>Rolle: meme
             </p>
             <p id="tekst5">
-                lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes lorem ipsum memes.
+                Navn: Sebastian<br>Rolle: meme
             </p>
         </div>
         
