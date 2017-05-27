@@ -47,7 +47,7 @@
         <div id="forsidelinje1"></div>
 
         <h1 id="underoverskrift">
-            Se hva ditt campus har å tilby!
+            Se hva din campus har å tilby!
         </h1>
 
         <!-- Second "content" wrapper -->
