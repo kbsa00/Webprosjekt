@@ -2,7 +2,10 @@
     <div id="header">
         
     <a href="index.php">
-        <img id="logo" src="Bilder/Logo/wdals.png"></a>
+        <div id="logodiv">
+            <img id="logo" src="Bilder/Logo/wdals.png">
+        </div>
+    </a>
     <a href="Fjerdingen.php">
         <img class="hexagons" id="hexagon5" 
         src="Bilder/Hexagon/Fjerdingen.png">
