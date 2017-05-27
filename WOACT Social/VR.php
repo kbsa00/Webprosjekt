@@ -32,6 +32,7 @@
         <div class="slidebilder">
             <img class="mySlides" src="Bilder/VR/slide-img-1.jpg" style="width:100%">
             <img class="mySlides" src="Bilder/VR/slide-img-2.jpg" style="width:100%">
+            <img class="mySlides" src="Bilder/VR/slide-img-3.jpg" style="width:100%">
         </div>
 
 
