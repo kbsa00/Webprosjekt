@@ -174,10 +174,6 @@ body {
 
 /* css for bilde+tekstwrap2 */
 
-#overskrift1 {
-    font-family: 'Open Sans', sans-serif;
-}
-
 #wrap2 {
     margin-top: 70px;
     margin-left: auto;
@@ -186,7 +182,6 @@ body {
     height: 350px;
 }
 
-#overskrift2,
 #tekstwrap2 {
     margin-top: -20px;
     font-family: 'Open Sans', sans-serif;
@@ -199,8 +194,7 @@ body {
 
 #bilde2 {
     display: block;
-    margin-left: 570px;
-    margin-top: -50px;
+    margin-left: auto;
     width: 400px;
     height: 300px;
     border: 1.5px solid black;
