@@ -65,9 +65,9 @@
                     <img id="bilde1" src="Bilder/MS/img-1.jpg">
                 </div>
                 <div id="tekstwrap1">
-                    <p>Vi på Westerdals er stolte over å presentere dere for vår egen lille MakerSpace rom hvor studenter kan komme innom og jobbe med sine egne/gruppe prosjekter. WOACT Social arrangerer ofte MakerSpace eventer som, 3D-printing, Dronebygging og mange flere. Vi ønsker å stimulere til kompetanseutvikling, nettverksbygging, samt et større fokus på gjenbruk og modifisering av forbrukerprodukter ikke minst vil studentene ha mulighet til å bygge sitt eget nettverk. Det er kun 5-8 MakerSpace i Oslo og vår MakerSpace er åpen for alle. Man vil ikke trenge å være student for å oppleve vår flotte lille MakerSpace.</p>
+                    <p>Vi på Westerdals er stolte av å huse vårt populære MakerSpace-rom. Her kan studenter komme innom, og jobbe med sine private prosjekter. WOACT Social arrangerer ofte MakerSpace-eventer, som blant annet 3D-printing og dronebygging. Vi ønsker å stimulere til kompetanseutvikling, nettverksbygging, samt et større fokus på gjenbruk, og modifisering av forbrukerprodukter, og ikke minst vil studentene ha mulighet til å bygge sitt eget nettverk. Det er kun 5-8 MakerSpaces i Oslo, og vårt MakerSpace er åpen for alle. Man vil ikke trenge å være student for å oppleve vårt flotte, lille MakerSpace.</p>
                     
-                    <p> om dere har noen morsomme eller kule ideer om eventer vi burde lage så er det bare å sende oss en melding.</p></div>
+                    <p> Dersom elevene har morsomme eller kule idéer om eventer vi burde lage, så gjør vi det vi kan for å virkeliggjøre det.</p></div>
             </div>
             
             <!-- line between each section of content -->
@@ -79,9 +79,9 @@
                 <!-- change the picture and text to what you want -->
                 <div id="tekstwrap2">
                     <p>
-                        Vår Makerspace vokser hver dag. Vi kjøper inn nye verktøy som våre Studenter kan ha seg godt av. Vi er stolte av å eie vår egen 3D-printer, som studenter har mulighet til å prøve ut. Vi jobber aktivt med å bygge og kjøpe inn mer verktøy. Studentene har vært med å forme Makerspace til det den er i dag. Makerspace ønsker å være et lavterskel møtested med mange forskjellige aktiviteter og workshops.</p>
+                        MakerSpace vokser stadig. Vi kjøper inn nye verktøy som våre studenter har stor nytte av. Vi er stolte av å eie vår egen 3D-printer, som studenter har mulighet til å benytte seg av. Vi jobber aktivt med å bygge, og kjøpe inn mer verktøy. Studentene har vært med å forme MakerSpace til hva det er i dag. Makerspace ønsker å være et lavterskel møtested, med mange forskjellige aktiviteter og workshops.</p>
                     
-                        <p>Er du en person som elsker å fikse på ting. Eller kanskje har en kul ide som dere vil bygge på? Ta gjerne kontakt med oss på WOACT Social og vi vil ordne slik at dere vil få tilgang. Vi holder interessante arrangementer hver uke. Om du har interesse for dette så er det bare å logge seg inn på aktuelt og sjekke alle disse arrangementer Makerspace holder. Klikk <a href="Aktuelt.php"><u>her</u></a></p>
+                        <p>Er du en person som elsker å fikse på ting, eller kanskje har en kul idé du ønsker å realisere? Ta gjerne kontakt med oss på WOACT Social, og vi vil ordne adgang til MakerSpace. Vi holder interessante arrangementer hver uke. Om du har interesse for dette, så er det bare å logge seg inn på aktuelt-siden, og sjekke ut når neste arrangement er. Klikk <a href="Aktuelt.php"><u>her</u></a></p>
                     
                 </div>
 

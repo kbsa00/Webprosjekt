@@ -40,10 +40,10 @@
         </div>
         <div id="tekstwrap1">
             <p>
-                Campus Fjerdingen er det nyeste skolebygget som ble ferdig høsten 2016. Skolen ligger på Christian Kroghs gate. Navnet til skolen ble ”Fjerdingen” fordi skolen ville at det var fint at Westerdals nye skolebygg hadde mulighet til å tilføre området med et navn som er solid og slitesterkt, slik at osloboere blir litt bedre kjent med lokalhistorien. De andre campusene Vulkan og Brenneriveien, har også navn som spiller på lokal historien. Dermed var det viktig at Fjerdingen ble med i den tradisjonen.
+                Campus Fjerdingen er vårt nyeste skolebygg, og ble ferdigstilt høsten 2016. Skolen ligger i Christian Kroghs gate. Skolen fikk navnet Fjerdingen, fordi skolens campuser bygger på gamle, slitesterke navn, med røtter tilbake til Oslos yngre år. Navnet Fjerdingen, er godt plantet i lokalhistorien. De andre campusene, Vulkan og Brenneriveien, har også navn som spiller på områdets lokal-historie. Dermed var det viktig at Fjerdingen skulle videreføre denne tradisjonen.
             </p>
             <p>
-                Ved Fjerdingen så har skolen bar, kantine, bibliotek som vi kan låne alt fra bøker til brettspill. Skolen har spesielle rom som <a href="MS.php"><u>MakerSpace</u></a>, hvor studenter kan få tilgang til kule utstyr som de kan være kreative med.
+                Ved Fjerdingen finner du skolens bar, Skjenkestua, som er fylt med studenter fra torsdag til lørdag. Vi har kantine, og et bibliotek som låner ut alt fra bøker til brettspill. Skolen har spesielle rom som <a href="MS.php"><u>MakerSpace</u></a>, hvor studenter kan få tilgang til avansert utstyr.
             </p>
         </div>
         
@@ -78,7 +78,7 @@
         Utkikk etter noe å spise?
     </h2>
     <p id="karttekst">
-        Er du på Campus Fjerdingen og vet ikke hva nærområdet har å tilby eller bare sulten på noe godt? fortvil ikke, Vi har samlet alt fra Cafeer, treningssenter Resturanter og fastFood. En av det beste tingene å studere på Campus Fjerdingen er at du vil alltid ha uendelig alternativer.
+       Befinner du deg på Campus Fjerdingen, og vil vite hva nærområdet har å tilby? Ny i Oslo? Fortvil ikke, Vi har samlet alt fra Caféer, treningssentre, restauranter og hurtigmat. En av det beste tingene ved å studere på Campus Fjerdingen, er at du området har gode, varierte tilbud, som burde dekke de fleste behov.
         Du vil finne alt du trenger i kartet.
     </p>
     <p id=karttekst2>

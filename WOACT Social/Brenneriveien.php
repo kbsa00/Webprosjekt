@@ -41,10 +41,10 @@
         </div>
         <div id="tekstwrap1">
             <p>
-                Vårt Campus på Brenneriet har mye å tilby til deg som er interessert i kunst, kultur og konserter. Ta en tur innom brenneriveien for å oppleve noe av den fineste gatekunsten, laget av kunstnere fra hele verden. Bare på en kort tur får du se fantastiske malerier både i øst og vest. På brenneriet kan du ikke bare se på gatekunsten, men frilansere viser også frem sin kunst på eget galleri om søndager. Dette kan du selv oppleve mellom klokken 13.00 og 15.00, hvor det også er åpent for salg.
+                Vårt Campus på Brenneriet har mye å tilby til deg som er interessert i kunst, kultur og konserter. Ta en tur innom brenneriveien for å oppleve noe av byens fineste gatekunst, laget av kunstnere fra hele verden. Bare på en kort tur, får du se fantastiske malerier, både i øst og vest. På brenneriet kan du ikke bare se på gatekunsten, for frilansere viser også frem sin kunst på eget galleri på søndager. Dette kan du selv oppleve mellom klokken 13.00 og 15.00, hvor det også er åpent for salg.
             </p>
             <p>
-                Brenneriveien er Oslos mest historiske kulturbydel. I dette området finnes også det velkjente søndagsmarkedet rett ved Akerselvas bredder. Dersom konserter er din greie kan du reise innom Blå og Ingensteds for å oppleve både nasjonale og internasjonale artister. Lenger nede kan du se ulike spisesteder og barer i nærheten.
+                Brenneriveien er Oslos mest historiske kulturbydel. I dette området finnes også det velkjente søndagsmarkedet rett ved Akerselvas bredder. Dersom konserter er din greie, kan du reise innom Blå og Ingensteds, for å oppleve både nasjonale og internasjonale artister. Lenger nede kan du se ulike spisesteder og barer i nærheten.
             </p>
         </div>
         
@@ -60,10 +60,10 @@
         <!-- change the picture and text to what you want -->
         <div id="tekstwrap2">
             <p>
-                Brenneriet ligger kun et steinkast unna Campus Vulkan. Med bare noen få fottrinn kan du komme deg fra det flotte moderne Campus Vulkan, til det kulturrike Campus Brenneriet. Her befinner det seg studenter fra maske- og hårdesign, i tillegg til deler av avdeling for spill, film og TV. Fra nattens danseliv til dagens mer kunstneriske side, finner du definitivt noe for deg. På Campus finnes det green screen-rom, grov- og finverksted og klipperom.
+                Campus Brenneriet ligger kun et steinkast unna Campus Vulkan. Med bare noen få skritt, kan du komme deg fra det flotte, moderne Campus Vulkan, til det kulturrike Campus Brenneriet. Her befinner det seg studenter fra maske- og hårdesign, i tillegg til deler av avdeling for spill, film og TV. Fra nattens danseliv, til dagens kunstneriske side, finner du definitivt noe for deg. På Campus finnes det green screen-rom, grov og -finverksted og klipperom.
             </p>
             <p>
-                Campus har blitt fornyet med nytt gulv, vegger og nymalte undervisningsrom, hvor kun bærebjelkene står igjen. Dette er for å kunne la den sterke kulturen stå igjen i alle byggene langs Akerselvas industriarv. 
+                Campus har nylig blitt pusset opp med nytt gulv, nye vegger, og nymalte undervisningsrom, hvor kun bærebjelkene står igjen. Dette er for å kunne la den sterke kulturen stå igjen i alle byggene langs Akerselvas industriarv. 
             </p>
         </div>
         
@@ -81,7 +81,7 @@
         Utkikk etter noe å spise?
     </h2>
     <p id="karttekst">
-        Er du på Campus Brenneriet og vet ikke hva nærområdet har å tilby eller bare sulten på noe godt? fortvil ikke, Vi har samlet alt fra Cafeer, kino, resturanter og fastFood. En av det beste tingene å studere på Campus Brenneriet er at du vil alltid ha uendelig alternativer.
+       Befinner du deg på Campus Fjerdingen, og vil vite hva nærområdet har å tilby? Ny i Oslo? Fortvil ikke, Vi har samlet alt fra Caféer, treningssentre, restauranter og hurtigmat. En av det beste tingene ved å studere på Campus Fjerdingen, er at du området har gode, varierte tilbud, som burde dekke de fleste behov.
         Du vil finne alt du trenger i kartet.
     </p>
     <p id=karttekst2>

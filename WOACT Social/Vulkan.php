@@ -84,7 +84,7 @@
         Utkikk etter noe å spise?
     </h2>
     <p id="karttekst">
-        Er du på Campus Vulkan og vet ikke hva nærområdet har å tilby eller bare sulten på noe godt? fortvil ikke, Vi har samlet alt fra Cafeer, treningssenter, resturanter og fastFood. En av det beste tingene å studere på Campus Vulkan er at du vil alltid ha uendelig alternativer.
+        Befinner du deg på Campus Vulkan, og vil vite hva nærområdet har å tilby? Ny i Oslo? Fortvil ikke, Vi har samlet alt fra Caféer, treningssentre, restauranter og hurtigmat. En av det beste tingene ved å studere på Campus Vulkan, er at du området har gode, varierte tilbud, som burde dekke de fleste behov.
         Du vil finne alt du trenger i kartet.
     </p>
     <p id=karttekst2>
