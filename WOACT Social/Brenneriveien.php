@@ -90,7 +90,7 @@
     </div>
     
     <!-- the style portion of the map should not be changed, keep it as is -->
-    <div id="map" style="border: 3px solid black; margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px;"></div>
+    <div id="map" style="border: 3px solid black; margin-top: 50px; width: 1000px; margin-left: auto; margin-right: auto; height: 400px; margin-bottom: 50px;"></div>
     
     
     <?php require'footer.php';?>

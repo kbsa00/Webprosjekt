@@ -43,21 +43,31 @@
             <img id="bilde5" src="Bilder/Contributors/img-5.jpg">
         </div>
         <div id="tekstwrap">
-            <p id="tekst1">
-                Navn: Fulin<br>Rolle: Design og Webutvikling<br>Bakgrunn: Java, HTML/CSS, C#.<br>Studielinje: Programmering 
+            <div id="tekst1">
+            <p>
+                <b>Navn: </b>Fulin Halvorsen<br><b>Rolle</b>: Design og Webutvikling<br><b>Bakgrunn</b>: Java, HTML/CSS og C#.<br><b>Studielinje: </b>Intelligente Systemer 
             </p>
-            <p id="tekst2">
-                Navn: Tobias<br>Rolle: Webutvikling<br>Bakgrunn: Java, HTML/CSS.<br>Studielinje: E-Business  
+            </div>
+            <div id="tekst2">
+            <p>
+                <b>Navn: </b>Tobias Dybwad<br><b>Rolle: </b>Webutvikling<br><b>Bakgrunn: </b>Java, HTML/CSS.<br><b>Studielinje: </b> E-Business  
             </p>
-            <p id="tekst3">
-                Navn: Khalid<br>Rolle: Hovedansvar og Webutvikling<br>Bakgrunn: Java, HTML/CSS, C# og JavaScript<br>Studielinje: Intelligente Systemer
+            </div>
+            <div id="tekst3">
+            <p>
+                <b>Navn: </b>Khalid B. Said<br><b>Rolle: </b> ProsjektLeder og Webutvikling<br><b>Bakgrunn</b> Java, HTML/CSS, C# og JavaScript<br><b>Studielinje: </b>: Intelligente Systemer
             </p>
-            <p id="tekst4">
-                Navn: Aleksander<br>Rolle: Desing og Datbase funksjonalitet<br>Bakgrunn: Java, HTML/CSS, JavaScript og PHP<br>Studielinje: Interaktivt Design
+            </div>
+            <div id="tekst4">
+            <p>
+                <b>Navn: </b>Aleksander Hauabakk-Anwar<br><b>Rolle: </b>Design, SQL og Database funksjonalitet<br><b>Bakgrunn: </b>Java, HTML/CSS, JavaScript og PHP<br><b>Studielinje: </b> Interaktivt Design
             </p>
-            <p id="tekst5">
-                Navn: Sebastian<br>Rolle: Webutvikling<br>Bakgrunn: Java, HTML/CSS, JavaScript, og C#<br>Studielinje: Programmering
+            </div>
+            <div id="tekst5">
+            <p>
+                <b>Navn: </b> Sebastian Knutsen<br><b>Rolle: </b> Webutvikling<br><b>Bakgrunn: </b>Java, HTML/CSS, JavaScript, og C#<br><b>Studielinje: </b>Programmering
             </p>
+            </div>
         </div>
         
     </div>

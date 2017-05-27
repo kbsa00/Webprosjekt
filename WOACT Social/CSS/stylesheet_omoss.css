@@ -137,9 +137,9 @@
 }
 
 #tekst1, #tekst2, #tekst3, #tekst4, #tekst5{
-    display: inline-block;
-    width: 170px;
-    padding: 13px;
+    float: left;
+    width: 180px;
+    padding: 10px;
 }
 
 /* footer css, don't change this */
