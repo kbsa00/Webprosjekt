@@ -18,7 +18,7 @@ $surname = $_SESSION['surname'];
 
     <title>Aktuelt </title>
 
-    <link href="CSS/Aktuelt.css" rel="stylesheet" type="text/css">
+    <link href="CSS/stylesheet_aktuelt.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="Bilder/Logo/westerdals-logo.png">
 
