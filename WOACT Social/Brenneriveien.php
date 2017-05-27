@@ -58,6 +58,7 @@
         <div id="wrap2">
 
             <!-- change the picture and text to what you want -->
+            <h2 id="overskrift2">Vår mest kulturrike Campus</h2>
             <div id="tekstwrap2">
                 <p>
                     Campus Brenneriet ligger kun et steinkast unna Campus Vulkan. Med bare noen få skritt, kan du komme deg fra det flotte, moderne Campus Vulkan, til det kulturrike Campus Brenneriet. Her befinner det seg studenter fra maske- og hårdesign, i tillegg til deler av avdeling for spill, film og TV. Fra nattens danseliv, til dagens kunstneriske side, finner du definitivt noe for deg. På Campus finnes det green screen-rom, grov og -finverksted og klipperom.
