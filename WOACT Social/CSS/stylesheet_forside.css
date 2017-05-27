@@ -1,154 +1,164 @@
 /* Start of CSS-page */
 
-    html,
-    body {
+html,
+body {
     margin: 0;
     font-family: tahoma;
 }
 
+
 /* header and container CSS */
 
-    #header{
-        width: 100%;
-        background-color: whitesmoke;
-        position: relative;
-        height: 200px;
-    }
-    #container{
-        margin: 0 auto;
-        margin-top: -20px;
-        width: 100%;
-        position: absolute;
-        background-color: whitesmoke;
-    }
-    
-    .menylinjer{
-        width: 46.5%; 
-        height: 3.2px; 
-        position: absolute;
-        top: 100px;
-        background-color: black;
-    }
+#header {
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    height: 200px;
+}
 
-    #menylinje1{
-        left: 0;
-    }
+#container {
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 100%;
+    position: absolute;
+    background-color: whitesmoke;
+}
 
-    #menylinje2{
-        right: 0;
-    
-    }
+.menylinjer {
+    width: 46.5%;
+    height: 3.2px;
+    position: absolute;
+    top: 100px;
+    background-color: black;
+}
 
-    .hexagons{
-        position: absolute; 
-        width: 40px; 
-        top: 50px;
-    }
+#menylinje1 {
+    left: 0;
+}
 
-    #hexagon5{
+#menylinje2 {
+    right: 0;
+}
+
+.hexagons {
+    position: absolute;
+    width: 40px;
+    top: 50px;
+}
+
+#hexagon5 {
     right: 345px;
-    }
-    #hexagon{
-        right: 290px;
-    }
-    
-    #hexagon1{
-        right: 235px;
-    }
+}
 
-    #hexagon2{
-        right: 180px;
-    }
-    
-    #hexagon3{
-        right: 125px;
-    }
-    
-    #hexagon4{
-        right: 70px;
-    }
-    
-    #logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 150px;
-        overflow: hidden;
-    }
+#hexagon {
+    right: 290px;
+}
 
-    #logodiv{
-        border: 3px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 150px;
-        width: 150px;
-        overflow: hidden;
-    }
+#hexagon1 {
+    right: 235px;
+}
 
-    #fb{
-        position: absolute; 
-        top: 55px; 
-        width: 30px;
-        left: 200px;
-    }
-    #tw{
-        position: absolute;
-        top: 55px; 
-        width: 30px;
-        left: 150px;
-    }
-    #ig{
-        position: absolute; 
-        top: 50px; 
-        width: 40px;
-        left: 90px;
-    }
-    #sc{
-        position: absolute; 
-        top: 50px; 
-        width: 37px;
-        left: 40px
-    }
+#hexagon2 {
+    right: 180px;
+}
+
+#hexagon3 {
+    right: 125px;
+}
+
+#hexagon4 {
+    right: 70px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    overflow: hidden;
+}
+
+#logodiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+#fb {
+    position: absolute;
+    top: 55px;
+    width: 30px;
+    left: 200px;
+}
+
+#tw {
+    position: absolute;
+    top: 55px;
+    width: 30px;
+    left: 150px;
+}
+
+#ig {
+    position: absolute;
+    top: 50px;
+    width: 40px;
+    left: 90px;
+}
+
+#sc {
+    position: absolute;
+    top: 50px;
+    width: 37px;
+    left: 40px
+}
+
 
 /* contents of page */
 
-#overskrift{
+#overskrift {
     text-align: center;
     font-size: 2.5em;
     font-family: 'Open Sans', sans-serif;
 }
 
-#underoverskrift{
+#underoverskrift {
     margin-top: 50px;
     text-align: center;
     font-size: 2.5em;
     font-family: 'Open Sans', sans-serif;
 }
 
-#tekstwrap1{
+#tekstwrap1 {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 700px;
 }
-#tekst1{
+
+#tekst1 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
 }
 
+
 /* css for bilde+tekstwrap1 */
 
-#wrap1{
+#wrap1 {
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
     height: 200px;
 }
 
+
 /* CSS code for section lines */
-#forsidelinje1, #forsidelinje2{
+
+#forsidelinje1,
+#forsidelinje2 {
     margin-top: 70px;
     display: block;
     background-color: black;
@@ -161,7 +171,7 @@
 
 /* css for bilde+tekstwrap2 */
 
-#wrap2{
+#wrap2 {
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -169,26 +179,26 @@
     height: 500px;
 }
 
-#venstrewrap{
+#venstrewrap {
     float: left;
     width: 500;
 }
 
-#hoyrewrap{
+#hoyrewrap {
     width: 500px;
     float: right;
 }
 
-.fjerd{
+.fjerd {
     height: 170px;
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url("Hexagon/Fjerdingen.png");
-    background-size: cover; 
+    background-size: cover;
     padding: 20px;
     position: absolute;
     margin-top: 50px;
@@ -196,166 +206,155 @@
     opacity: 2;
 }
 
-.fjerd:hover
-{
+.fjerd:hover {
     opacity: 0.6;
     box-shadow: 20px;
 }
 
-.fjerd:hover:after
-{
-    content: attr(data-hover); 
-    font-size: 20px; 
-    font-weight: 200; 
+.fjerd:hover:after {
+    content: attr(data-hover);
+    font-size: 20px;
+    font-weight: 200;
     color: white;
     background-color: black;
     padding: 20px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
-    
-.vulk{
+.vulk {
     height: 170px;
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url("Hexagon/Vulkan.png");
-    background-size: cover; 
+    background-size: cover;
     padding: 20px;
     position: absolute;
     margin-left: 50px;
-    margin-top: 300px; 
+    margin-top: 300px;
     opacity: 2;
 }
 
-.vulk:hover
-{
+.vulk:hover {
     opacity: 0.6;
 }
 
-.vulk:hover:after
-{
-    content: attr(data-hover); 
-    font-size: 20px; 
-    font-weight: 200; 
+.vulk:hover:after {
+    content: attr(data-hover);
+    font-size: 20px;
+    font-weight: 200;
     color: white;
     background-color: black;
     padding: 20px;
-    font-family:sans-serif;
-    
+    font-family: sans-serif;
 }
 
-.bren{
+.bren {
     height: 170px;
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: url("Hexagon/Brenneriveien.png"); 
-    background-size: cover; 
+    background-image: url("Hexagon/Brenneriveien.png");
+    background-size: cover;
     padding: 20px;
     position: absolute;
-    margin-left: 275px; 
+    margin-left: 275px;
     margin-top: 175px;
     opacity: 2;
 }
 
- .bren:hover
-{
+.bren:hover {
     opacity: 0.6;
 }
 
-.bren:hover:after
-{
-    content: attr(data-hover); 
-    font-size: 20px; 
-    font-weight: 200; 
+.bren:hover:after {
+    content: attr(data-hover);
+    font-size: 20px;
+    font-weight: 200;
     color: white;
     background-color: black;
     padding: 20px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
-.aktuelt{
+.aktuelt {
     height: 170px;
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url("Hexagon/Aktuelt.png");
-    background-size: cover; 
+    background-size: cover;
     padding: 20px;
     position: absolute;
     margin-top: 50px;
-    margin-left: 0px; 
-    opacity: 2;
-}
-
- .aktuelt:hover
-{
-    opacity: 0.6;
-}
-
-.aktuelt:hover:after
-{
-    content: attr(data-hover); 
-    font-size: 20px; 
-    font-weight: 200; 
-    color: white;
-    background-color: black;
-    padding: 20px;
-    font-family:sans-serif;
-}
-
-.makerspace{
-    height: 170px;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-image: url("Hexagon/Makerspace.png");
-    background-size: cover; 
-    padding: 20px;
-    position: absolute;
-    margin-top: 300px; 
     margin-left: 0px;
     opacity: 2;
 }
 
-.makerspace:hover
-{
+.aktuelt:hover {
     opacity: 0.6;
 }
 
-.makerspace:hover:after
-{
-    content: attr(data-hover); 
-    font-size: 20px; 
-    font-weight: 200; 
+.aktuelt:hover:after {
+    content: attr(data-hover);
+    font-size: 20px;
+    font-weight: 200;
     color: white;
     background-color: black;
     padding: 20px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
-.VR{
+
+.makerspace {
     height: 170px;
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: center; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("Hexagon/Makerspace.png");
+    background-size: cover;
+    padding: 20px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 0px;
+    opacity: 2;
+}
+
+.makerspace:hover {
+    opacity: 0.6;
+}
+
+.makerspace:hover:after {
+    content: attr(data-hover);
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.VR {
+    height: 170px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url("Hexagon/VirtualReality.png");
-    background-size: cover; 
+    background-size: cover;
     padding: 20px;
     position: absolute;
     margin-top: 175px;
@@ -363,46 +362,51 @@
     opacity: 2;
 }
 
-.VR:hover
-{
+.VR:hover {
     opacity: 0.6;
 }
 
-.VR:hover:after
-{
-    content: attr(data-hover); 
-    font-size: 20px; 
-    font-weight: 200; 
+.VR:hover:after {
+    content: attr(data-hover);
+    font-size: 20px;
+    font-weight: 200;
     color: white;
     background-color: black;
     padding: 20px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
-#kartboks{
+#kartboks {
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
 }
-#kartoverskrift, #karttekst{
+
+#kartoverskrift,
+#karttekst {
     font-family: 'Open sans', sans-serif;
     text-align: center;
 }
+
+
 /* footer css, don't change this */
-#wdalslogo{
+
+#wdalslogo {
     margin-top: 10px;
     display: block;
     float: left;
     width: 250px;
 }
-#fwrap{
+
+#fwrap {
     margin-top: 30px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-#footer{
+
+#footer {
     height: 100px;
     width: 100%;
     margin-left: auto;
@@ -413,22 +417,28 @@
     color: white;
 }
 
+
 /* CSS for links in footer */
-a.foot-link:link{
+
+a.foot-link:link {
     color: white;
     text-decoration: none;
 }
-a.foot-link:visited{
+
+a.foot-link:visited {
     color: white;
     text-decoration: none;
 }
-a.foot-link:hover{
+
+a.foot-link:hover {
     color: white;
     text-decoration: underline;
 }
-a.foot-link:active{
+
+a.foot-link:active {
     color: white;
     text-decoration: none;
 }
+
 
 /* end of template CSS */

@@ -1,115 +1,132 @@
 /* Start of CSS-page */
 
-    html,
-    body {
+html,
+body {
     margin: 0;
     font-family: tahoma;
 }
 
+
 /* header and container CSS */
 
-    #header{
-        width: 100%;
-        background-color: whitesmoke;
-        position: relative;
-        height: 200px;
-    }
-    #container{
-        margin: 0 auto;
-        margin-top: -20px;
-        width: 100%;
-        position: absolute;
-        background-color: whitesmoke;
-    }
-    
-    .menylinjer{
-        width: 46.5%; 
-        height: 3.2px; 
-        position: absolute;
-        top: 100px;
-        background-color: black;
-    }
+#header {
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    height: 200px;
+}
 
-    #menylinje1{
-        left: 0;
-    }
+#container {
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 100%;
+    position: absolute;
+    background-color: whitesmoke;
+}
 
-    #menylinje2{
-        right: 0;
-    
-    }
+.menylinjer {
+    width: 46.5%;
+    height: 3.2px;
+    position: absolute;
+    top: 100px;
+    background-color: black;
+}
 
-    .hexagons{
-        position: absolute; 
-        width: 40px; 
-        top: 50px;
-    }
+#menylinje1 {
+    left: 0;
+}
 
-    #hexagon5{
+#menylinje2 {
+    right: 0;
+}
+
+.hexagons {
+    position: absolute;
+    width: 40px;
+    top: 50px;
+}
+
+#hexagon5 {
     right: 345px;
-    }
-    #hexagon{
-        right: 290px;
-    }
-    
-    #hexagon1{
-        right: 235px;
-    }
+}
 
-    #hexagon2{
-        right: 180px;
-    }
-    
-    #hexagon3{
-        right: 125px;
-    }
-    
-    #hexagon4{
-        right: 70px;
-    }
-    
-    #logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 150px;
-        overflow: hidden;
-    }
-    #fb{
-        position: absolute; 
-        top: 55px; 
-        width: 30px;
-        left: 200px;
-    }
-    #tw{
-        position: absolute;
-        top: 55px; 
-        width: 30px;
-        left: 150px;
-    }
-    #ig{
-        position: absolute; 
-        top: 50px; 
-        width: 40px;
-        left: 90px;
-    }
-    #sc{
-        position: absolute; 
-        top: 50px; 
-        width: 37px;
-        left: 40px
-    }
+#hexagon {
+    right: 290px;
+}
+
+#hexagon1 {
+    right: 235px;
+}
+
+#hexagon2 {
+    right: 180px;
+}
+
+#hexagon3 {
+    right: 125px;
+}
+
+#hexagon4 {
+    right: 70px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    overflow: hidden;
+}
+
+#logodiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+#fb {
+    position: absolute;
+    top: 55px;
+    width: 30px;
+    left: 200px;
+}
+
+#tw {
+    position: absolute;
+    top: 55px;
+    width: 30px;
+    left: 150px;
+}
+
+#ig {
+    position: absolute;
+    top: 50px;
+    width: 40px;
+    left: 90px;
+}
+
+#sc {
+    position: absolute;
+    top: 50px;
+    width: 37px;
+    left: 40px
+}
+
 
 /* contents of page */
 
-#overskrift{
+#overskrift {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* css for bilde+tekstwrap1 */
 
-#wrap1{
+#wrap1 {
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
@@ -117,26 +134,30 @@
     height: 350px;
 }
 
-#bildewrap1{
+#bildewrap1 {
     width: 500px;
     float: left;
 }
 
+
 /* image width may be changed, but not to more than 500px */
-#bilde1{
+
+#bilde1 {
     display: block;
     margin-right: auto;
     width: 480px;
     border: 1.5px solid black;
 }
 
-#tekstwrap1{
+#tekstwrap1 {
     font-family: 'Open Sans', sans-serif;
 }
 
 
 /* CSS code for section lines */
-#forsidelinje1, #forsidelinje2{
+
+#forsidelinje1,
+#forsidelinje2 {
     margin-top: 70px;
     display: block;
     background-color: black;
@@ -148,12 +169,12 @@
 
 
 /* css for bilde+tekstwrap2 */
-#overskrift1{
+
+#overskrift1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-#wrap2{
+#wrap2 {
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
@@ -161,52 +182,59 @@
     height: 350px;
 }
 
-#overskrift2, #tekstwrap2{
+#overskrift2,
+#tekstwrap2 {
     margin-top: -20px;
     font-family: 'Open Sans', sans-serif;
     width: 500px;
     float: left;
 }
 
+
 /* image width may be changed, but not to more than 500px */
-#bilde2{
+
+#bilde2 {
     display: block;
     margin-left: 570px;
-    margin-top: -50px; 
+    margin-top: -50px;
     width: 400px;
     height: 300px;
     border: 1.5px solid black;
 }
 
-#kartboks{
+#kartboks {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
 }
 
-#kartoverskrift{
-  font-family: 'Open Sans', sans-serif;
+#kartoverskrift {
+    font-family: 'Open Sans', sans-serif;
 }
 
-#karttekst, #karttekst2{
-     font-family: 'Open Sans', sans-serif;
+#karttekst,
+#karttekst2 {
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 /* footer css, don't change this */
 
-#wdalslogo{
+#wdalslogo {
     margin-top: 10px;
     display: block;
     float: left;
     width: 250px;
 }
-#fwrap{
+
+#fwrap {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-#footer{
+
+#footer {
     height: 100px;
     width: 100%;
     margin-left: auto;
@@ -216,22 +244,29 @@
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
+
+
 /* CSS for links in footer */
-a.foot-link:link{
+
+a.foot-link:link {
     color: white;
     text-decoration: none;
 }
-a.foot-link:visited{
+
+a.foot-link:visited {
     color: white;
     text-decoration: none;
 }
-a.foot-link:hover{
+
+a.foot-link:hover {
     color: white;
     text-decoration: underline;
 }
-a.foot-link:active{
+
+a.foot-link:active {
     color: white;
     text-decoration: none;
 }
+
 
 /* end of template CSS */

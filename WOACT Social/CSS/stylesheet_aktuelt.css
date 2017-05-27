@@ -74,6 +74,15 @@ body {
     overflow: hidden;
 }
 
+#logodiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
 #fb {
     position: absolute;
     top: 50px;
@@ -185,18 +194,20 @@ body {
 
 /* footer css, don't change this */
 
-#wdalslogo{
+#wdalslogo {
     margin-top: 10px;
     display: block;
     float: left;
     width: 250px;
 }
-#fwrap{
+
+#fwrap {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-#footer{
+
+#footer {
     height: 100px;
     width: 100%;
     margin-left: auto;
@@ -207,26 +218,30 @@ body {
     color: white;
 }
 
+
 /* CSS for links in footer */
-a.foot-link:link{
+
+a.foot-link:link {
     color: white;
     text-decoration: none;
 }
-a.foot-link:visited{
+
+a.foot-link:visited {
     color: white;
     text-decoration: none;
 }
-a.foot-link:hover{
+
+a.foot-link:hover {
     color: white;
     text-decoration: underline;
 }
-a.foot-link:active{
+
+a.foot-link:active {
     color: white;
     text-decoration: none;
 }
+
 Sett av Sebastian Knutsen 17:30
-
-
 /*Bilder til slides */
 
 .slidebilder {
@@ -278,7 +293,6 @@ Sett av Sebastian Knutsen 17:30
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffffff;
 }
-
 
 .eventBilder {
     position: relative;
