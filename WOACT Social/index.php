@@ -56,15 +56,15 @@
             <div id="venstrewrap">
 
                 <a href="Fjerdingen.php">
-                    <div class="fjerd" data-hover=F JERDINGEN> </div>
+                    <div class="fjerd" data-hover= FJERDINGEN></div>
                 </a>
 
                 <a href="Vulkan.php">
-                    <div class="vulk" data-hover=V ULKAN></div>
+                    <div class="vulk" data-hover= VULKAN></div>
                 </a>
 
                 <a href="Brenneriveien.php">
-                    <div class="bren" data-hover=B RENNERIET></div>
+                    <div class="bren" data-hover= BRENNERIET></div>
                 </a>
 
             </div>
@@ -72,13 +72,13 @@
             <div id="hoyrewrap">
 
                 <a href="Aktuelt.php">
-                    <div class="aktuelt" data-hover=A KTUELT></div>
+                    <div class="aktuelt" data-hover= AKTUELT></div>
                 </a>
                 <a href="MS.php">
-                    <div class="makerspace" data-hover=M AKERSPACE></div>
+                    <div class="makerspace" data-hover= MAKERSPACE></div>
                 </a>
                 <a href="VR.php">
-                    <div class="VR" data-hover=V IRTUALREALITY></div>
+                    <div class="VR" data-hover= VIRTUALREALITY></div>
                 </a>
 
             </div>
