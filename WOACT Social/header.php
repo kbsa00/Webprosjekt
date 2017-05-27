@@ -1,11 +1,11 @@
 <!-- header html code, don't mess with this -->
     <div id="header">
         
-    <a href="index.php">
-        <div id="logodiv">
+    <div id="logodiv">
+        <a href="index.php">    
             <img id="logo" src="Bilder/Logo/wdals.png">
-        </div>
-    </a>
+        </a>
+    </div>
     <a href="Fjerdingen.php">
         <img class="hexagons" id="hexagon5" 
         src="Bilder/Hexagon/Fjerdingen.png">
