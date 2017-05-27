@@ -1,109 +1,112 @@
 /* Start of CSS-page */
 
-    html,
-    body {
+html,
+body {
     margin: 0;
-    font-family: tahoma;
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 /* header and container CSS */
 
-    #header{
-        width: 100%;
-        background-color: whitesmoke;
-        position: relative;
-        height: 200px;
-    }
-    #container{
-        margin: 0 auto;
-        margin-top: -20px;
-        width: 100%;
-        position: absolute;
-        background-color: whitesmoke;
-    }
-    
-    .menylinjer{
-        width: 46.5%; 
-        height: 3.2px; 
-        position: absolute;
-        top: 100px;
-        background-color: black;
-    }
+#header {
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    height: 200px;
+}
 
-    #menylinje1{
-        left: 0;
-    }
+#container {
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 100%;
+    position: absolute;
+    background-color: whitesmoke;
+}
 
-    #menylinje2{
-        right: 0;
-    
-    }
+.menylinjer {
+    width: 46.5%;
+    height: 3.2px;
+    position: absolute;
+    top: 100px;
+    background-color: black;
+}
 
-    .hexagons{
-        position: absolute; 
-        width: 40px; 
-        top: 50px;
-    }
+#menylinje1 {
+    left: 0;
+}
 
-    #hexagon5{
-    right: 345px;
-    }
-    #hexagon{
-        right: 290px;
-    }
-    
-    #hexagon1{
-        right: 235px;
-    }
+#menylinje2 {
+    right: 0;
+}
 
-    #hexagon2{
-        right: 180px;
-    }
-    
-    #hexagon3{
-        right: 125px;
-    }
-    
-    #hexagon4{
-        right: 70px;
-    }
-    
-    #logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 150px;
-        overflow: hidden;
-    }
-    #fb{
-        position: absolute; 
-        top: 55px; 
-        width: 30px;
-        left: 200px;
-    }
-    #tw{
-        position: absolute;
-        top: 55px; 
-        width: 30px;
-        left: 150px;
-    }
-    #ig{
-        position: absolute; 
-        top: 50px; 
-        width: 40px;
-        left: 90px;
-    }
-    #sc{
-        position: absolute; 
-        top: 50px; 
-        width: 37px;
-        left: 40px
-    }
+.hexagons {
+    position: absolute;
+    width: 30px;
+    top: 60px;
+}
+
+#hexagon {
+    right: 290px;
+}
+
+#hexagon1 {
+    right: 235px;
+}
+
+#hexagon2 {
+    right: 180px;
+}
+
+#hexagon3 {
+    right: 125px;
+}
+
+#hexagon4 {
+    right: 70px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    overflow: hidden;
+}
+
+#fb {
+    position: absolute;
+    top: 50px;
+    width: 30px;
+    left: 200px;
+}
+
+#tw {
+    position: absolute;
+    top: 50px;
+    width: 30px;
+    left: 150px;
+}
+
+#ig {
+    position: absolute;
+    top: 45px;
+    width: 40px;
+    left: 90px;
+}
+
+#sc {
+    position: absolute;
+    top: 45px;
+    width: 37px;
+    left: 40px
+}
+
+
 /* contents of page */
 
-#overskrift{
+#overskrift {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -112,7 +115,7 @@
 #wrap1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 3%;
     width: 1000px;
     height: 300px;
 }
@@ -127,17 +130,21 @@
 
 #bilde1 {
     display: block;
+    margin-left: auto;
     margin-right: auto;
     width: 450px;
-    border: 1.5px solid black;
+    border: 1.7px solid black;
 }
 
 #tekstwrap1 {}
 
 
 /* CSS code for section lines */
-#forsidelinje1, #forsidelinje2{
-    margin-top: 70px;
+
+#forsidelinje1,
+#forsidelinje2,
+#forsidelinje3 {
+    margin-top: 50px;
     display: block;
     background-color: black;
     height: 1px;
@@ -150,7 +157,7 @@
 /* css for bilde+tekstwrap2 */
 
 #wrap2 {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
@@ -160,6 +167,7 @@
 #tekstwrap2 {
     margin-top: -20px;
     width: 450px;
+    ;
     float: left;
 }
 
@@ -169,8 +177,9 @@
 #bilde2 {
     display: block;
     margin-left: auto;
+    margin-right: auto;
     width: 450px;
-    border: 1.5px solid black;
+    border: 1.7px solid black;
 }
 
 
@@ -197,6 +206,7 @@
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
+
 /* CSS for links in footer */
 a.foot-link:link{
     color: white;
@@ -214,6 +224,7 @@ a.foot-link:active{
     color: white;
     text-decoration: none;
 }
+Sett av Sebastian Knutsen 17:30
 
 
 /*Bilder til slides */
@@ -223,7 +234,7 @@ a.foot-link:active{
     top: 0%;
     margin: auto;
     width: 1000px;
-    height: 580px;
+    height: 620px;
     border: 3px solid black;
     overflow: hidden;
 }
@@ -232,7 +243,6 @@ a.foot-link:active{
     position: relative;
     margin: auto;
     margin-top: 3%;
-    margin-bottom: 3%;
     width: 1000px;
     height: 600px;
     border: 3px solid black;
