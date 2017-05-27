@@ -228,5 +228,59 @@ a.foot-link:active{
     overflow: hidden;
 }
 
+#login-event {
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    width: 1000px;
+    height: 600px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#logoutbtn {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+#loginbtn {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+
+.eventBilder {
+    position: relative;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#eventimg {
+    position: relative;
+    border: 2px solid black;
+    margin: 20px;
+    height: 70%;
+}
+
 
 /* end of template CSS */
