@@ -77,7 +77,7 @@ $surname = $_SESSION['surname'];
                 <img id="bilde1" src="Bilder/Aktuelt/Biliotek%20Aktuelt.jpeg">
             </div>
             <div id="tekstwrap1">
-                <p> Westerdals er en skole hvor ting alltid skjer. Vi har vår egen festkomite som lager storfester hvor vi har forskjellig festtemaer som, Afterski, Halloween, Karneval og mange flere. Ikke minst har vi en Student Bar i Campus Fjerdingen hvor vi Studenter har muligheten til å komme å drikke alkohol til en billig studentpris. Westerdals er en stor skole med studenter, som studerer forskjellige studielinjer og du vil alltid ha muligheten til å bli kjent med nye mennesker og ikke minst få bygget ditt nettverk. For folk som har lyst til å drikke billig alkohol og liker å synge karaoke så har Westerdals Studentene mulighet til dette hos Syng Bar, som ligger bare noen få minutter fra skolen. Hos oss WOACT Social vil du ha muligheten til og aktivt være med å arrangere fester, og ikke minst få med deg de store festene festkomiteen arrangerer.
+                <p> Westerdals er en skole hvor ting alltid skjer. Vi har vår egen festkomite som lager storfester hvor vi har forskjellig festtemaer som, Afterski, Halloween, Karneval og mange flere. Ikke minst har vi en Student Bar i Campus Fjerdingen hvor vi Studenter har muligheten til å komme å drikke alkohol til en billig studentpris. <br>Westerdals er en stor skole med studenter, som studerer forskjellige studielinjer og du vil alltid ha muligheten til å bli kjent med nye mennesker og ikke minst få bygget ditt nettverk. For folk som har lyst til å drikke billig alkohol og liker å synge karaoke så har Westerdals Studentene mulighet til dette hos Syng Bar, som ligger bare noen få minutter fra skolen. Hos oss WOACT Social vil du ha muligheten til og aktivt være med å arrangere fester, og ikke minst få med deg de store festene festkomiteen arrangerer.
                 </p>
 
             </div>
@@ -94,7 +94,7 @@ $surname = $_SESSION['surname'];
             <!-- change the picture and text to what you want -->
             <div id="tekstwrap2">
                 <p>
-                    Her på Westerdals Oslo Act så er det alltid noe som skjer. Hver uke har vi arrangementer laget av studenter for studenter. Studentsamfunnet arrangerer fester og konkurranser for studenter. Vi på WOACT Social har har gjort det lettere for studenter å få med seg de alle kommende eventer som foregår på alle Campuser.Alt fra Workshops til konkurranser og store fester. WOACT Social prøver aktivt å få lage nye arrangementer og aktiviteter for dere. Vil du ha muligheten til å få med deg alt som skjer? Logger deg inn under siden!
+                    Her på Westerdals Oslo Act så er det alltid noe som skjer. Hver uke har vi arrangementer laget av studenter for studenter. Studentsamfunnet arrangerer fester og konkurranser for studenter. <br>Vi på WOACT Social har har gjort det lettere for studenter å få med seg de alle kommende eventer som foregår på alle Campuser.Alt fra Workshops til konkurranser og store fester. WOACT Social prøver aktivt å få lage nye arrangementer og aktiviteter for dere. Vil du ha muligheten til å få med deg alt som skjer? Logger deg inn under siden!
 
                 </p>
 

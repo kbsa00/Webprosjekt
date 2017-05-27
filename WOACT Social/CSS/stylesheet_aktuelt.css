@@ -3,7 +3,7 @@
 html,
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: tahoma;
 }
 
 
@@ -42,8 +42,12 @@ body {
 
 .hexagons {
     position: absolute;
-    width: 30px;
-    top: 60px;
+    width: 40px;
+    top: 50px;
+}
+
+#hexagon5 {
+    right: 345px;
 }
 
 #hexagon {
@@ -85,28 +89,28 @@ body {
 
 #fb {
     position: absolute;
-    top: 50px;
+    top: 55px;
     width: 30px;
     left: 200px;
 }
 
 #tw {
     position: absolute;
-    top: 50px;
+    top: 55px;
     width: 30px;
     left: 150px;
 }
 
 #ig {
     position: absolute;
-    top: 45px;
+    top: 50px;
     width: 40px;
     left: 90px;
 }
 
 #sc {
     position: absolute;
-    top: 45px;
+    top: 50px;
     width: 37px;
     left: 40px
 }
@@ -116,6 +120,7 @@ body {
 
 #overskrift {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -124,7 +129,7 @@ body {
 #wrap1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
+    margin-top: 70px;
     width: 1000px;
     height: 300px;
 }
@@ -139,10 +144,9 @@ body {
 
 #bilde1 {
     display: block;
-    margin-left: auto;
     margin-right: auto;
     width: 450px;
-    border: 1.7px solid black;
+    border: 1.5px solid black;
 }
 
 #tekstwrap1 {}
@@ -151,9 +155,8 @@ body {
 /* CSS code for section lines */
 
 #forsidelinje1,
-#forsidelinje2,
-#forsidelinje3 {
-    margin-top: 50px;
+#forsidelinje2 {
+    margin-top: 70px;
     display: block;
     background-color: black;
     height: 1px;
@@ -166,7 +169,7 @@ body {
 /* css for bilde+tekstwrap2 */
 
 #wrap2 {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
@@ -176,7 +179,6 @@ body {
 #tekstwrap2 {
     margin-top: -20px;
     width: 450px;
-    ;
     float: left;
 }
 
@@ -186,9 +188,8 @@ body {
 #bilde2 {
     display: block;
     margin-left: auto;
-    margin-right: auto;
     width: 450px;
-    border: 1.7px solid black;
+    border: 1.5px solid black;
 }
 
 
@@ -241,7 +242,7 @@ a.foot-link:active {
     text-decoration: none;
 }
 
-Sett av Sebastian Knutsen 17:30
+
 /*Bilder til slides */
 
 .slidebilder {
@@ -249,7 +250,7 @@ Sett av Sebastian Knutsen 17:30
     top: 0%;
     margin: auto;
     width: 1000px;
-    height: 620px;
+    height: 580px;
     border: 3px solid black;
     overflow: hidden;
 }
@@ -258,6 +259,7 @@ Sett av Sebastian Knutsen 17:30
     position: relative;
     margin: auto;
     margin-top: 3%;
+    margin-bottom: 3%;
     width: 1000px;
     height: 600px;
     border: 3px solid black;
