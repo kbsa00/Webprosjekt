@@ -78,7 +78,7 @@
                     <div class="makerspace" data-hover= MAKERSPACE></div>
                 </a>
                 <a href="VR.php">
-                    <div class="VR" data-hover= VIRTUAL%20REALITY></div>
+                    <div class="VR" data-hover= VR></div>
                 </a>
 
             </div>
