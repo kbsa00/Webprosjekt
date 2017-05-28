@@ -36,7 +36,7 @@
 
             <div id="tekstwrap1">
                 <p id="tekst1">
-                    En av gode tingene med å gå på Westerdals Oslo Act er at campusene våre ligger så sentralt i Oslo. Du vil ha alt fra matbutikk, bar, restauranter, gym og annet lignende i gåavstand fra våre Campuser. For hvert Campus har vi funnet de beste, billigste alternativene for våre studenter. For å finne disse stedene er det bare å klikke seg inn på Campuset du går på.
+                    En av de gode tingene med å gå på Westerdals Oslo ACT, er at campusene våre ligger meget sentralt i Oslo. Du vil finne alt fra matbutikker, barer, restauranter, treningssentre og andre tilbud, i gåavstand fra våre campuser. Vi har samlet populære steder av interesse for våre studenter. For å finne disse stedene, klikker du deg inn på campusene, og ser på kartet, nederst på sidene.
                 </p>
             </div>
 
@@ -93,7 +93,7 @@
                 Våre Campuser
             </h2>
             <p id="karttekst">
-                Vi er stolt over at våre Campuser ligger så sentralt i Oslo. Du vil alltid ha muligheten til å kjøpe alt fra Cafe, Asiatisk mat til Amerikanske burgere. Ikke minst ligger skolene 10 minutter fra hverandre. Her har du et kart over Westerdals sine Campuser.
+               Vi er stolte av å tilby campuser sentralt i Oslos myldrende byliv. Skolene ligger på rekke, langs byens pulsåre, Akerselva, og du er aldri mer enn ti minutter unna neste campus. Her har du et kart over skolens campuser.
             </p>
         </div>
 
