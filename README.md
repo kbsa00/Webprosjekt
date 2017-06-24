@@ -5,4 +5,4 @@ Vi tok i bruk JavaScript, php og Html/CSS i løsningen vår.
 
 Her har du en lenke til hjemmesiden. 
 
-www.tek.westerdals.no/~ahmkha16
+tek.westerdals.no/~ahmkha16
