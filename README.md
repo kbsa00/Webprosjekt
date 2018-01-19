@@ -11,5 +11,4 @@ already students and teachers
 - JavaScript
 - PHP 
 
-###### Link to the website
 [Link to the Website! ](tek.westerdals.no/~ahmkha16)
