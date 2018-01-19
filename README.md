@@ -1,8 +1,15 @@
-# Webprosjekt
-Dette er et eksamensprosjekt hvor vi fikk en oppgave fra skolen om å lage 
-en nettside som setter fokus på nærmiljøet rundt ett eller flere campuser. 
-Vi tok i bruk JavaScript, php og Html/CSS i løsningen vår.
+# Exam in Web-development
 
-Her har du en lenke til hjemmesiden. 
+## Assignment 
+This was a group project where we received a task from the school to create a 
+website that focuses on the local community around one or more campuses. 
+This website was primarily for attracting more new students and also for
+already students and teachers 
 
-tek.westerdals.no/~ahmkha16
+## Programming Language
+- HTML/CSS
+- JavaScript
+- PHP 
+
+###### Link to the website
+[Link to the Website! ](tek.westerdals.no/~ahmkha16)
